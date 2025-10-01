@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Oct 01 14:25:01 2025
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cin" LOCATE = SITE "P183" LEVEL 1;
+COMP "s" LOCATE = SITE "P61" LEVEL 1;
+COMP "i0" LOCATE = SITE "P172" LEVEL 1;
+COMP "i1" LOCATE = SITE "P161" LEVEL 1;
+COMP "cout" LOCATE = SITE "P42" LEVEL 1;
+SCHEMATIC END;
+

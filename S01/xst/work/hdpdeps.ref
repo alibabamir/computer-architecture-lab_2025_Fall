@@ -1,0 +1,28 @@
+V3 19
+FL C:/Users/Lenovo/Desktop/H_B/S01/and_gate.vhd 2025/10/01.14:02:01 P.20131013
+EN work/and_gate 1759316096 FL C:/Users/Lenovo/Desktop/H_B/S01/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/gatelevel 1759316097 \
+      FL C:/Users/Lenovo/Desktop/H_B/S01/and_gate.vhd EN work/and_gate 1759316096
+FL C:/Users/Lenovo/Desktop/H_B/S01/fullAdder.vhd 2025/10/01.14:05:01 P.20131013
+EN work/full_adder 1759316102 FL C:/Users/Lenovo/Desktop/H_B/S01/fullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/structure 1759316103 \
+      FL C:/Users/Lenovo/Desktop/H_B/S01/fullAdder.vhd EN work/full_adder 1759316102 \
+      CP half_adder CP or_gate
+FL C:/Users/Lenovo/Desktop/H_B/S01/half_adder.vhd 2025/10/01.14:04:46 P.20131013
+EN work/half_adder 1759316098 FL C:/Users/Lenovo/Desktop/H_B/S01/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/structure 1759316099 \
+      FL C:/Users/Lenovo/Desktop/H_B/S01/half_adder.vhd EN work/half_adder 1759316098 \
+      CP xor_gate CP and_gate
+FL C:/Users/Lenovo/Desktop/H_B/S01/or_gate.vhd 2025/10/01.14:03:08 P.20131013
+EN work/or_gate 1759316100 FL C:/Users/Lenovo/Desktop/H_B/S01/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/gatelevel 1759316101 \
+      FL C:/Users/Lenovo/Desktop/H_B/S01/or_gate.vhd EN work/or_gate 1759316100
+FL C:/Users/Lenovo/Desktop/H_B/S01/xor_gate.vhd 2025/10/01.14:04:01 P.20131013
+EN work/xor_gate 1759316094 FL C:/Users/Lenovo/Desktop/H_B/S01/xor_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_gate/gatelevel 1759316095 \
+      FL C:/Users/Lenovo/Desktop/H_B/S01/xor_gate.vhd EN work/xor_gate 1759316094

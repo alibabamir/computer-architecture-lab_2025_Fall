@@ -1,0 +1,10 @@
+EN half_adder NULL C:/Users/Lenovo/Desktop/H_B/S01/half_adder.vhd sub00/vhpl08 1759316098
+AR xor_gate gatelevel C:/Users/Lenovo/Desktop/H_B/S01/xor_gate.vhd sub00/vhpl07 1759316095
+AR and_gate gatelevel C:/Users/Lenovo/Desktop/H_B/S01/and_gate.vhd sub00/vhpl03 1759316097
+EN full_adder NULL C:/Users/Lenovo/Desktop/H_B/S01/fullAdder.vhd sub00/vhpl00 1759316102
+EN or_gate NULL C:/Users/Lenovo/Desktop/H_B/S01/or_gate.vhd sub00/vhpl04 1759316100
+AR full_adder structure C:/Users/Lenovo/Desktop/H_B/S01/fullAdder.vhd sub00/vhpl01 1759316103
+AR half_adder structure C:/Users/Lenovo/Desktop/H_B/S01/half_adder.vhd sub00/vhpl09 1759316099
+EN xor_gate NULL C:/Users/Lenovo/Desktop/H_B/S01/xor_gate.vhd sub00/vhpl06 1759316094
+EN and_gate NULL C:/Users/Lenovo/Desktop/H_B/S01/and_gate.vhd sub00/vhpl02 1759316096
+AR or_gate gatelevel C:/Users/Lenovo/Desktop/H_B/S01/or_gate.vhd sub00/vhpl05 1759316101

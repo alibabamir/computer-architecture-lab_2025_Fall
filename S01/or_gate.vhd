@@ -1,0 +1,44 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    14:02:31 10/01/2025 
+-- Design Name: 
+-- Module Name:    or_gate - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+
+-- OR Gate Entity
+entity or_gate is
+    Port(
+        A, B: in std_logic;
+        C : out std_logic
+    );
+end entity or_gate;
+
+architecture gatelevel of or_gate is
+begin
+    C <= A or B;
+end gatelevel;

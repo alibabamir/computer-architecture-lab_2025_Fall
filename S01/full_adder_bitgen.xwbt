@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Lenovo\Desktop\H_B\S01\full_adder.ncd
+OUTFILE=C:\Users\Lenovo\Desktop\H_B\S01\full_adder.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=C:\Users\Lenovo\Desktop\H_B\S01
+LICENSE=WebPack
+USER_INFO=__0_0_0
