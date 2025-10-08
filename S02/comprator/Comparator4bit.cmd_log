@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf 
+bitgen -intstyle ise -f Comparator4bit.ut Comparator4bit.ncd 
+netgen -intstyle ise -s 4  -pcf Comparator4bit.pcf -rpw 100 -tpw 0 -ar Structure -tm Comparator4bit -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Comparator4bit.ncd Comparator4bit_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf 
+netgen -intstyle ise -s 4  -pcf Comparator4bit.pcf -rpw 100 -tpw 0 -ar Structure -tm Comparator4bit -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Comparator4bit.ncd Comparator4bit_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf 
+netgen -intstyle ise -s 4  -pcf Comparator4bit.pcf -rpw 100 -tpw 0 -ar Structure -tm Comparator4bit -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Comparator4bit.ncd Comparator4bit_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf 
+bitgen -intstyle ise -f Comparator4bit.ut Comparator4bit.ncd 
+netgen -intstyle ise -s 4  -pcf Comparator4bit.pcf -rpw 100 -tpw 0 -ar Structure -tm Comparator4bit -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Comparator4bit.ncd Comparator4bit_timesim.vhd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/coprator/Comparator4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Comparator4bit.ucf -bm and_gate.bmm -p xc3s400-pq208-4 Comparator4bit.ngc Comparator4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Comparator4bit_map.ncd Comparator4bit.ngd Comparator4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparator4bit_map.ncd Comparator4bit.ncd Comparator4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparator4bit.twx Comparator4bit.ncd -o Comparator4bit.twr Comparator4bit.pcf -ucf Comparator4bit.ucf 
+bitgen -intstyle ise -f Comparator4bit.ut Comparator4bit.ncd 

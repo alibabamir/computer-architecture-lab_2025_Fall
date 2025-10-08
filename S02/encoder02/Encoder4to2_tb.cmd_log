@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/encoder02/Encoder4to2_tb.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/encoder02/Encoder4to2_tb.syr" 

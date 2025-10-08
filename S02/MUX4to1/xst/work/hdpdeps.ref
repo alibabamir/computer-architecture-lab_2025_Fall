@@ -1,0 +1,20 @@
+V3 13
+FL C:/Users/Lenovo/Desktop/H_B/tester/ander.vhd 2025/10/07.18:58:32 P.20131013
+EN work/ander 1759853083 FL C:/Users/Lenovo/Desktop/H_B/tester/ander.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ander/Behavioral 1759853084 \
+      FL C:/Users/Lenovo/Desktop/H_B/tester/ander.vhd EN work/ander 1759853083
+FL C:/Users/Lenovo/Desktop/H_B/tester/ir_gate.vhd 2025/10/07.18:57:21 P.20131013
+AR work/not_gate/gatelevel -1 FL C:/Users/Lenovo/Desktop/H_B/tester/ir_gate.vhd \
+      EN work/not_gate 1759853081
+FL C:/Users/Lenovo/Desktop/H_B/tester/mux41.vhd 2025/10/07.18:54:00 P.20131013
+EN work/mux41 1759853085 FL C:/Users/Lenovo/Desktop/H_B/tester/mux41.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux41/Behavioral 1759853086 \
+      FL C:/Users/Lenovo/Desktop/H_B/tester/mux41.vhd EN work/mux41 1759853085 \
+      CP not_gate CP ander
+FL C:/Users/Lenovo/Desktop/H_B/tester/not_gate.vhd 2025/10/07.19:34:39 P.20131013
+EN work/not_gate 1759853081 FL C:/Users/Lenovo/Desktop/H_B/tester/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/Behavioral 1759853082 \
+      FL C:/Users/Lenovo/Desktop/H_B/tester/not_gate.vhd EN work/not_gate 1759853081

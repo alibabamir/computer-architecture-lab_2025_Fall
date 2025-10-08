@@ -1,0 +1,11 @@
+EN encoder4to2 NULL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd sub00/vhpl09 1759855814
+AR encoder4to2_basic structural C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd sub00/vhpl07 1759855666
+AR not_gate behavioral C:/Users/Lenovo/Desktop/H_B/encoder02/not_gate.vhd sub00/vhpl01 1759855809
+AR encoder4to2 structural C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd sub00/vhpl10 1759855815
+EN not_gate NULL C:/Users/Lenovo/Desktop/H_B/encoder02/not_gate.vhd sub00/vhpl00 1759855808
+AR and_gate behavioral C:/Users/Lenovo/Desktop/H_B/encoder02/and_gate.vhd sub00/vhpl03 1759855811
+AR or_gate behavioral C:/Users/Lenovo/Desktop/H_B/encoder02/or_gate.vhd sub00/vhpl05 1759855813
+EN encoder4to2_basic NULL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd sub00/vhpl06 1759854889
+EN or_gate NULL C:/Users/Lenovo/Desktop/H_B/encoder02/or_gate.vhd sub00/vhpl04 1759855812
+EN encoder4to2_tb NULL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd sub00/vhpl08 1759854758
+EN and_gate NULL C:/Users/Lenovo/Desktop/H_B/encoder02/and_gate.vhd sub00/vhpl02 1759855810

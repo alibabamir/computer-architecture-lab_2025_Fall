@@ -1,0 +1,6 @@
+AR decoder2to4 structural C:/Users/Lenovo/Desktop/H_B/decoder/decoder.vhd sub00/vhpl05 1759911206
+AR not_gate behavioral C:/Users/Lenovo/Desktop/H_B/decoder/not_gate.vhd sub00/vhpl01 1759911202
+EN not_gate NULL C:/Users/Lenovo/Desktop/H_B/decoder/not_gate.vhd sub00/vhpl00 1759911201
+EN decoder2to4 NULL C:/Users/Lenovo/Desktop/H_B/decoder/decoder.vhd sub00/vhpl04 1759911205
+AR and_gate behavioral C:/Users/Lenovo/Desktop/H_B/decoder/and_gate.vhd sub00/vhpl03 1759911204
+EN and_gate NULL C:/Users/Lenovo/Desktop/H_B/decoder/and_gate.vhd sub00/vhpl02 1759911203

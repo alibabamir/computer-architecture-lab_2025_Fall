@@ -1,0 +1,26 @@
+V3 17
+FL C:/Users/Lenovo/Desktop/H_B/encoder02/and_gate.vhd 2025/10/07.19:46:17 P.20131013
+EN work/and_gate 1759855810 FL C:/Users/Lenovo/Desktop/H_B/encoder02/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/Behavioral 1759855811 \
+      FL C:/Users/Lenovo/Desktop/H_B/encoder02/and_gate.vhd EN work/and_gate 1759855810
+FL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd 2025/10/07.20:20:03 P.20131013
+AR work/Encoder4to2_basic/Structural 1759855666 \
+      FL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd \
+      EN work/Encoder4to2_basic 1759854889 CP not_gate CP and_gate CP or_gate
+EN work/Encoder4to2 1759855814 \
+      FL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Encoder4to2/Structural 1759855815 \
+      FL C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd EN work/Encoder4to2 1759855814 \
+      CP not_gate CP and_gate CP or_gate
+FL C:/Users/Lenovo/Desktop/H_B/encoder02/not_gate.vhd 2025/10/07.19:47:31 P.20131013
+EN work/not_gate 1759855808 FL C:/Users/Lenovo/Desktop/H_B/encoder02/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/Behavioral 1759855809 \
+      FL C:/Users/Lenovo/Desktop/H_B/encoder02/not_gate.vhd EN work/not_gate 1759855808
+FL C:/Users/Lenovo/Desktop/H_B/encoder02/or_gate.vhd 2025/10/07.19:47:55 P.20131013
+EN work/or_gate 1759855812 FL C:/Users/Lenovo/Desktop/H_B/encoder02/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/Behavioral 1759855813 \
+      FL C:/Users/Lenovo/Desktop/H_B/encoder02/or_gate.vhd EN work/or_gate 1759855812

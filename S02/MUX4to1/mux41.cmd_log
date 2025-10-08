@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 mux41.ngc mux41.ngd  
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 mux41.ngc mux41.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o mux41_map.ncd mux41.ngd mux41.pcf 
+par -w -intstyle ise -ol high -t 1 mux41_map.ncd mux41.ncd mux41.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux41.twx mux41.ncd -o mux41.twr mux41.pcf 
+bitgen -intstyle ise -f mux41.ut mux41.ncd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 mux41.ngc mux41.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o mux41_map.ncd mux41.ngd mux41.pcf 
+par -w -intstyle ise -ol high -t 1 mux41_map.ncd mux41.ncd mux41.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux41.twx mux41.ncd -o mux41.twr mux41.pcf 
+bitgen -intstyle ise -f mux41.ut mux41.ncd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm not_gate.bmm -p xc3s400-pq208-4 mux41.ngc mux41.ngd  
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/tester/mux41.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm not_gate.bmm -p xc3s400-pq208-4 mux41.ngc mux41.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm not_gate.bmm -p xc3s400-pq208-4 mux41.ngc mux41.ngd  

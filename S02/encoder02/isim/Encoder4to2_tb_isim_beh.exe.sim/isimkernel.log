@@ -1,0 +1,10 @@
+Command line:
+   Encoder4to2_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49185
+
+Tue Oct 07 20:20:31 2025
+
+
+ Elaboration Time: 0.0468 sec

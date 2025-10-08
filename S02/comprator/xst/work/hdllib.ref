@@ -1,0 +1,11 @@
+AR comparator4bit structural C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd sub00/vhpl08 1759919207
+AR and_gate rtl C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd sub00/vhpl01 1759910112
+AR not_gate behavioral C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd sub00/vhpl05 1759919201
+EN not_gate NULL C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd sub00/vhpl04 1759919200
+AR and_gate behavioral C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd sub00/vhpl06 1759919203
+AR or_gate behavioral C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd sub00/vhpl03 1759919205
+EN or_gate NULL C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd sub00/vhpl02 1759919204
+EN comparator4bit NULL C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd sub00/vhpl07 1759919206
+EN comp0 NULL C:/Users/Lenovo/Desktop/H_B/coprator/comp1bit.vhd sub00/vhpl09 1759917600
+EN and_gate NULL C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd sub00/vhpl00 1759919202
+AR comp0 structural C:/Users/Lenovo/Desktop/H_B/coprator/comp1bit.vhd sub00/vhpl10 1759917601

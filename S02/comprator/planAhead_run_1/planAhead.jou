@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 08 13:52:48 2025
+# Process ID: 2608
+# Log file: C:/Users/Lenovo/Desktop/H_B/coprator/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Lenovo/Desktop/H_B/coprator/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Lenovo/Desktop/H_B/coprator/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P183 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin P182 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {B[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {B[0]}]]
+save_constraints
+set_property is_loc_fixed true [get_ports [list  {B[0]}]]
+startgroup
+set_property package_pin P42 [get_ports A_eq_B]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports A_gt_B]
+endgroup
+startgroup
+set_property package_pin P71 [get_ports A_lt_B]
+endgroup
+save_constraints

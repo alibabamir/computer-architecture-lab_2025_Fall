@@ -1,0 +1,28 @@
+Command line:
+   tb_Decoder2to4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49185
+
+Wed Oct 08 13:25:53 2025
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 672.58 Meg
+
+ Total Signals          : 30
+ Total Nets             : 8
+ Total Signal Drivers   : 8
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 7
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 491
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 987.152 Meg
+
+Wed Oct 08 13:26:24 2025
+

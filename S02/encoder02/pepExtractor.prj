@@ -1,0 +1,4 @@
+work	"and_gate.vhd"
+work	"encoder001.vhd"
+work	"not_gate.vhd"
+work	"or_gate.vhd"

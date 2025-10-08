@@ -1,0 +1,2 @@
+vhdl work "netgen/par/Comparator4bit_timesim.vhd"
+vhdl work "test.vhd"

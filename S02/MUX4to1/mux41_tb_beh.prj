@@ -1,0 +1,4 @@
+vhdl work "not_gate.vhd"
+vhdl work "ander.vhd"
+vhdl work "mux41.vhd"
+vhdl work "test23.vhd"

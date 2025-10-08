@@ -1,0 +1,6 @@
+vhdl isim_temp "or_gate.vhd"
+vhdl isim_temp "not_gate.vhd"
+vhdl isim_temp "and_gate.vhd"
+vhdl isim_temp "comp1bit.vhd"
+vhdl isim_temp "comprator.vhd"
+vhdl isim_temp "test.vhd"

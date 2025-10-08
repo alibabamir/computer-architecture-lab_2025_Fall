@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Lenovo/Desktop/H_B/encoder02/Encoder4to2_tb_isim_beh.exe -prj C:/Users/Lenovo/Desktop/H_B/encoder02/Encoder4to2_tb_beh.prj work.Encoder4to2_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/encoder02/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/encoder02/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/encoder02/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/encoder02/encoder001.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/encoder02/tb22.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity not_gate [not_gate_default]
+Compiling architecture behavioral of entity and_gate [and_gate_default]
+Compiling architecture behavioral of entity or_gate [or_gate_default]
+Compiling architecture structural of entity Encoder4to2 [encoder4to2_default]
+Compiling architecture behavioral of entity encoder4to2_tb
+Time Resolution for simulation is 1ps.
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/Lenovo/Desktop/H_B/encoder02/Encoder4to2_tb_isim_beh.exe
+Fuse Memory Usage: 29164 KB
+Fuse CPU Usage: 311 ms

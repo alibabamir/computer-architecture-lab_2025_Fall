@@ -1,0 +1,3 @@
+work	"and_gate.vhd"
+work	"decoder.vhd"
+work	"not_gate.vhd"

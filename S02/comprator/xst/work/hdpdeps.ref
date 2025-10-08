@@ -1,0 +1,29 @@
+V3 18
+FL C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd 2025/10/08.11:29:06 P.20131013
+EN work/and_gate 1759919202 FL C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/Behavioral 1759919203 \
+      FL C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd EN work/and_gate 1759919202
+FL C:/Users/Lenovo/Desktop/H_B/coprator/comp1bit.vhd 2025/10/08.13:20:12 P.20131013
+EN work/Comp0 1759917600 FL C:/Users/Lenovo/Desktop/H_B/coprator/comp1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Comp0/Structural 1759917601 \
+      FL C:/Users/Lenovo/Desktop/H_B/coprator/comp1bit.vhd EN work/Comp0 1759917600 \
+      CP not_gate CP and_gate CP or_gate
+FL C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd 2025/10/08.13:32:12 P.20131013
+EN work/Comparator4bit 1759919206 \
+      FL C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Comparator4bit/Structural 1759919207 \
+      FL C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd \
+      EN work/Comparator4bit 1759919206 CP not_gate CP and_gate CP or_gate
+FL C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd 2025/10/08.11:29:10 P.20131013
+EN work/not_gate 1759919200 FL C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/Behavioral 1759919201 \
+      FL C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd EN work/not_gate 1759919200
+FL C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd 2025/10/08.11:29:10 P.20131013
+EN work/or_gate 1759919204 FL C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/Behavioral 1759919205 \
+      FL C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd EN work/or_gate 1759919204

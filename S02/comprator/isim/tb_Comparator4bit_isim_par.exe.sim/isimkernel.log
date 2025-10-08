@@ -1,0 +1,30 @@
+Command line:
+   tb_Comparator4bit_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/Comparator4bit_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  49187
+
+Wed Oct 08 13:37:32 2025
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 672.911 Meg
+
+ Total Signals          : 258
+ Total Nets             : 151
+ Total Signal Drivers   : 122
+ Total Blocks           : 86
+ Total Primitive Blocks : 47
+ Total Processes        : 121
+ Total Traceable Variables  : 395
+ Total Scalar Nets and Variables : 5736
+
+ Total Simulation Time: 0.1716 sec
+
+ Current Memory Usage: 987.484 Meg
+
+Wed Oct 08 13:38:52 2025
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_beh.prj" "work.tb_Comparator4bit" 

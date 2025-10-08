@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/H_B/tester/mux41_tb_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/H_B/tester/mux41_tb_beh.prj" "work.mux41_tb" 

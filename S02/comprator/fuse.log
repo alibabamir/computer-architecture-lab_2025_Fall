@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_isim_beh.exe -prj C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_beh.prj work.tb_Comparator4bit 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity not_gate [not_gate_default]
+Compiling architecture behavioral of entity and_gate [and_gate_default]
+Compiling architecture behavioral of entity or_gate [or_gate_default]
+Compiling architecture structural of entity Comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity tb_comparator4bit
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_isim_beh.exe
+Fuse Memory Usage: 33092 KB
+Fuse CPU Usage: 452 ms

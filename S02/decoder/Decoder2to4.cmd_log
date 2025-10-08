@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/decoder/Decoder2to4.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/decoder/Decoder2to4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm or_gate.bmm -p xc3s400-pq208-4 Decoder2to4.ngc Decoder2to4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Decoder2to4_map.ncd Decoder2to4.ngd Decoder2to4.pcf 
+par -w -intstyle ise -ol high -t 1 Decoder2to4_map.ncd Decoder2to4.ncd Decoder2to4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Decoder2to4.twx Decoder2to4.ncd -o Decoder2to4.twr Decoder2to4.pcf 

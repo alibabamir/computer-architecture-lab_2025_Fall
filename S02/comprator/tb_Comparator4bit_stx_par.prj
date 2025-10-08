@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/par/Comparator4bit_timesim.vhd"
+vhdl isim_temp "test.vhd"

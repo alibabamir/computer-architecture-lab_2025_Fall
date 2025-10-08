@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/H_B/decoder/tb_Decoder2to4_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/H_B/decoder/tb_Decoder2to4_beh.prj" "work.tb_Decoder2to4" 

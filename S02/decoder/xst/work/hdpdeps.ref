@@ -1,0 +1,17 @@
+V3 11
+FL C:/Users/Lenovo/Desktop/H_B/decoder/and_gate.vhd 2025/10/08.11:43:19 P.20131013
+EN work/and_gate 1759911203 FL C:/Users/Lenovo/Desktop/H_B/decoder/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/Behavioral 1759911204 \
+      FL C:/Users/Lenovo/Desktop/H_B/decoder/and_gate.vhd EN work/and_gate 1759911203
+FL C:/Users/Lenovo/Desktop/H_B/decoder/decoder.vhd 2025/10/08.11:43:19 P.20131013
+EN work/Decoder2to4 1759911205 FL C:/Users/Lenovo/Desktop/H_B/decoder/decoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Decoder2to4/Structural 1759911206 \
+      FL C:/Users/Lenovo/Desktop/H_B/decoder/decoder.vhd EN work/Decoder2to4 1759911205 \
+      CP not_gate CP and_gate
+FL C:/Users/Lenovo/Desktop/H_B/decoder/not_gate.vhd 2025/10/08.11:42:32 P.20131013
+EN work/not_gate 1759911201 FL C:/Users/Lenovo/Desktop/H_B/decoder/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/Behavioral 1759911202 \
+      FL C:/Users/Lenovo/Desktop/H_B/decoder/not_gate.vhd EN work/not_gate 1759911201
