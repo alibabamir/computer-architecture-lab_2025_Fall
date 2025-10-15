@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 15 07:17:32 2025
+
+drc -z d_ff_async_reset.ncd d_ff_async_reset.pcf
+
+DRC detected 0 errors and 0 warnings.

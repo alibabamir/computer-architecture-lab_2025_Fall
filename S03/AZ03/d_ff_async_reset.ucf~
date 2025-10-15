@@ -1,0 +1,9 @@
+
+
+NET "clk" LOC = P184;
+
+NET "q" LOC = P51;
+NET "reset_n" LOC = P190;
+
+
+NET "t" LOC = P171;

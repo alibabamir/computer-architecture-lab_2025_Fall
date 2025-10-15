@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Oct 15 07:22:36 2025
+# Process ID: 3394
+# Log file: /home/ise/computer-architecture-lab_2025_Fall/AZ03/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/computer-architecture-lab_2025_Fall/AZ03/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/computer-architecture-lab_2025_Fall/AZ03/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P183 [get_ports t]
+endgroup
+save_constraints
