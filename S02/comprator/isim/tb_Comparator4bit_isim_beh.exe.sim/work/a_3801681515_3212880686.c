@@ -10,7 +10,7 @@
 /*  \___\/\___\                                                    */
 /***********************************************************************/
 
-/* This file is designed for use with ISim build 0x7708f090 */
+/* This file is designed for use with ISim build 0xfbc00daa */
 
 #define XSI_HIDE_SYMBOL_SPEC true
 #include "xsi.h"
@@ -21,10 +21,10 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd";
+static const char *ng0 = "/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/not_gate.vhd";
 extern char *IEEE_P_2592010699;
 
-unsigned char ieee_p_2592010699_sub_1690584930_503743352(char *, unsigned char );
+unsigned char ieee_p_2592010699_sub_374109322130769762_503743352(char *, unsigned char );
 
 
 static void work_a_3801681515_3212880686_p_0(char *t0)
@@ -44,8 +44,8 @@ LAB0:    xsi_set_current_line(13, ng0);
 LAB3:    t1 = (t0 + 1032U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
-    t4 = ieee_p_2592010699_sub_1690584930_503743352(IEEE_P_2592010699, t3);
-    t1 = (t0 + 2752);
+    t4 = ieee_p_2592010699_sub_374109322130769762_503743352(IEEE_P_2592010699, t3);
+    t1 = (t0 + 2744);
     t5 = (t1 + 56U);
     t6 = *((char **)t5);
     t7 = (t6 + 56U);
@@ -53,7 +53,7 @@ LAB3:    t1 = (t0 + 1032U);
     *((unsigned char *)t8) = t4;
     xsi_driver_first_trans_fast_port(t1);
 
-LAB2:    t9 = (t0 + 2672);
+LAB2:    t9 = (t0 + 2664);
     *((int *)t9) = 1;
 
 LAB1:    return;

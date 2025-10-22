@@ -1,15 +1,17 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_isim_beh.exe -prj C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_beh.prj work.tb_Comparator4bit 
-ISim P.20131013 (signature 0x7708f090)
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/tb_Comparator4bit_isim_beh.exe -prj /home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/tb_Comparator4bit_beh.prj work.tb_Comparator4bit 
+ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/or_gate.vhd" into library work
-Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/not_gate.vhd" into library work
-Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/and_gate.vhd" into library work
-Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/comprator.vhd" into library work
-Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/coprator/test.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/not_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/comprator.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/test.vhd" into library work
 Starting static elaboration
 Completed static elaboration
+Fuse Memory Usage: 96832 KB
+Fuse CPU Usage: 1290 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
@@ -21,6 +23,7 @@ Compiling architecture structural of entity Comparator4bit [comparator4bit_defau
 Compiling architecture behavioral of entity tb_comparator4bit
 Time Resolution for simulation is 1ps.
 Compiled 13 VHDL Units
-Built simulation executable C:/Users/Lenovo/Desktop/H_B/coprator/tb_Comparator4bit_isim_beh.exe
-Fuse Memory Usage: 33092 KB
-Fuse CPU Usage: 452 ms
+Built simulation executable /home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/tb_Comparator4bit_isim_beh.exe
+Fuse Memory Usage: 112084 KB
+Fuse CPU Usage: 1570 ms
+GCC CPU Usage: 2190 ms

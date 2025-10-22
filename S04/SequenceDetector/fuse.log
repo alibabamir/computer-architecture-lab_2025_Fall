@@ -1,0 +1,21 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/tb_sequence_detector_isim_beh.exe -prj /home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/tb_sequence_detector_beh.prj work.tb_sequence_detector 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/sequence_detector.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/tb_sequence_detector.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95316 KB
+Fuse CPU Usage: 970 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity sequence_detector [sequence_detector_default]
+Compiling architecture behavioral of entity tb_sequence_detector
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable /home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/tb_sequence_detector_isim_beh.exe
+Fuse Memory Usage: 103976 KB
+Fuse CPU Usage: 1060 ms
+GCC CPU Usage: 330 ms

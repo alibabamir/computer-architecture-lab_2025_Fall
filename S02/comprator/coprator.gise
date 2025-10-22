@@ -142,7 +142,7 @@
       <outfile xil_pn:name="or_gate.vhd"/>
       <outfile xil_pn:name="test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1759918842" xil_pn:in_ck="-1088387114483927813" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4033991200673134230" xil_pn:start_ts="1759918838">
+    <transform xil_pn:end_ts="1761074648" xil_pn:in_ck="-1088387114483927813" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4033991200673134230" xil_pn:start_ts="1761074641">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -154,7 +154,7 @@
       <outfile xil_pn:name="tb_Comparator4bit_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1759918842" xil_pn:in_ck="-2787031073301329777" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1488543131846063299" xil_pn:start_ts="1759918842">
+    <transform xil_pn:end_ts="1761074649" xil_pn:in_ck="4118319259159621961" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1488543131846063299" xil_pn:start_ts="1761074648">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -296,7 +296,7 @@
     </transform>
     <transform xil_pn:end_ts="1759918050" xil_pn:in_ck="3472081102343606852" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="3089955257522501314" xil_pn:start_ts="1759918043">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -306,7 +306,7 @@
     </transform>
     <transform xil_pn:end_ts="1759918051" xil_pn:in_ck="-2787031055365460573" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="5765619679421163329" xil_pn:start_ts="1759918050">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>

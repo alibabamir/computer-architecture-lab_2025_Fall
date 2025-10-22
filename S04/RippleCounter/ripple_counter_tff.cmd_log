@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5 ripple_counter_tff.ngc ripple_counter_tff.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ripple_counter_tff_map.ncd ripple_counter_tff.ngd ripple_counter_tff.pcf 
+par -w -intstyle ise -ol high -t 1 ripple_counter_tff_map.ncd ripple_counter_tff.ncd ripple_counter_tff.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple_counter_tff.twx ripple_counter_tff.ncd -o ripple_counter_tff.twr ripple_counter_tff.pcf -ucf ripple_counter_tff.ucf 
+bitgen -intstyle ise -f ripple_counter_tff.ut ripple_counter_tff.ncd 

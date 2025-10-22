@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/tb_ripple_counter_tff_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/tb_ripple_counter_tff_beh.prj" "tb_ripple_counter_tff" 

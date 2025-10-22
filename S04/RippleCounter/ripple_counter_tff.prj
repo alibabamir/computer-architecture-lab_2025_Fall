@@ -1,0 +1,3 @@
+vhdl work "t_ff_async_reset.vhd"
+vhdl work "ClkDivider.vhd"
+vhdl work "ripple_counter_tff.vhd"

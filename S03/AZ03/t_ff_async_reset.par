@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-vbox::  Wed Oct 15 07:29:23 2025
+vbox::  Wed Oct 22 07:59:52 2025
 
 par -w -intstyle ise -ol high -t 1 t_ff_async_reset_map.ncd
 t_ff_async_reset.ncd t_ff_async_reset.pcf 
@@ -81,9 +81,9 @@ Phase 8.18  Placement Optimization
 Phase 8.18  Placement Optimization (Checksum:8be70a22) REAL time: 2 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:8be70a22) REAL time: 2 secs 
+Phase 9.5  Local Placement Optimization (Checksum:8be70a22) REAL time: 3 secs 
 
-Total REAL time to Placer completion: 2 secs 
+Total REAL time to Placer completion: 3 secs 
 Total CPU  time to Placer completion: 1 secs 
 Writing design to file t_ff_async_reset.ncd
 
@@ -92,11 +92,11 @@ Writing design to file t_ff_async_reset.ncd
 Starting Router
 
 
-Phase  1  : 105 unrouted;      REAL time: 2 secs 
+Phase  1  : 105 unrouted;      REAL time: 3 secs 
 
-Phase  2  : 90 unrouted;      REAL time: 2 secs 
+Phase  2  : 90 unrouted;      REAL time: 3 secs 
 
-Phase  3  : 13 unrouted;      REAL time: 2 secs 
+Phase  3  : 13 unrouted;      REAL time: 3 secs 
 
 Phase  4  : 17 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
@@ -177,8 +177,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 3 secs 
-Total CPU time to PAR completion: 2 secs 
+Total REAL time to PAR completion: 7 secs 
+Total CPU time to PAR completion: 4 secs 
 
 Peak Memory Usage:  619 MB
 

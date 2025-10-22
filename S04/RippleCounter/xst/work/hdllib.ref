@@ -1,0 +1,6 @@
+AR clk_div behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ClkDivider.vhd sub00/vhpl05 1761117902
+AR ripple_counter_tff behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.vhd sub00/vhpl03 1761117906
+EN ripple_counter_tff NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.vhd sub00/vhpl02 1761117905
+AR t_ff_async_reset behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/t_ff_async_reset.vhd sub00/vhpl01 1761117904
+EN t_ff_async_reset NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/t_ff_async_reset.vhd sub00/vhpl00 1761117903
+EN clk_div NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ClkDivider.vhd sub00/vhpl04 1761117901

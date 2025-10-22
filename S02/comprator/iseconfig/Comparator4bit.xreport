@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2025-10-08T13:52:09</DateModified>
+  <DateModified>2025-10-21T19:22:30</DateModified>
   <ModuleName>Comparator4bit</ModuleName>
   <SummaryTimeStamp>2025-10-08T13:33:13</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Lenovo/Desktop/H_B/coprator/iseconfig/Comparator4bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Lenovo/Desktop/H_B/coprator</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/iseconfig/Comparator4bit.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/VM/computer-architecture-lab_2025_Fall/S02/comprator/</ImplementationReportsDirectory>
   <DateInitialized>2025-10-08T11:36:55</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
