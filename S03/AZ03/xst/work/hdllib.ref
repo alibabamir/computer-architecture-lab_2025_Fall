@@ -1,0 +1,6 @@
+AR clk_div behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/Divider.vhd sub00/vhpl01 1761119963
+AR d_ff_async_reset behavioral /home/ise/computer-architecture-lab_2025_Fall/AZ03/DFF.vhd sub00/vhpl03 1760512629
+EN d_ff_async_reset NULL /home/ise/computer-architecture-lab_2025_Fall/AZ03/DFF.vhd sub00/vhpl02 1760512628
+AR t_ff_async_reset behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/TFF.vhd sub00/vhpl05 1761119965
+EN t_ff_async_reset NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/TFF.vhd sub00/vhpl04 1761119964
+EN clk_div NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/Divider.vhd sub00/vhpl00 1761119962

@@ -1,0 +1,24 @@
+V3 12
+FL /home/ise/computer-architecture-lab_2025_Fall/AZ03/DFF.vhd 2025/10/15.07:00:50 P.20131013
+EN work/d_ff_async_reset 1760512628 \
+      FL /home/ise/computer-architecture-lab_2025_Fall/AZ03/DFF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/d_ff_async_reset/Behavioral 1760512629 \
+      FL /home/ise/computer-architecture-lab_2025_Fall/AZ03/DFF.vhd \
+      EN work/d_ff_async_reset 1760512628 CP clk_div
+FL /home/ise/computer-architecture-lab_2025_Fall/AZ03/Divider.vhd 2025/10/15.06:32:28 P.20131013
+FL /home/ise/computer-architecture-lab_2025_Fall/AZ03/TFF.vhd 2025/10/15.07:10:10 P.20131013
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/Divider.vhd 2025/10/15.06:32:28 P.20131013
+EN work/clk_div 1761119962 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/Divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_div/Behavioral 1761119963 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/Divider.vhd \
+      EN work/clk_div 1761119962
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/TFF.vhd 2025/10/15.07:10:10 P.20131013
+EN work/t_ff_async_reset 1761119964 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/TFF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/t_ff_async_reset/Behavioral 1761119965 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/TFF.vhd \
+      EN work/t_ff_async_reset 1761119964 CP clk_div

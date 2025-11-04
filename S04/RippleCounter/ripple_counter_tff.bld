@@ -1,0 +1,38 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc ripple_counter_tff.ucf -p xc3s400-pq208-5
+ripple_counter_tff.ngc ripple_counter_tff.ngd
+
+Reading NGO file
+"/home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_count
+er_tff.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ripple_counter_tff.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 485932 kilobytes
+
+Writing NGD file "ripple_counter_tff.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "ripple_counter_tff.bld"...

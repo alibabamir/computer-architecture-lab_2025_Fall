@@ -1,0 +1,4 @@
+vhdl isim_temp "ClkDivider.vhd"
+vhdl isim_temp "t_ff_async_reset.vhd"
+vhdl isim_temp "ripple_counter_tff.vhd"
+vhdl isim_temp "tb_ripple_counter.vhd"

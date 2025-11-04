@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/tb_sequence_detector_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S03/SequenceDetector/tb_sequence_detector_beh.prj" "work.tb_sequence_detector" 

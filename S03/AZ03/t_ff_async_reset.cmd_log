@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.xst" -ofn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.syr" 
+xst -intstyle ise -ifn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.xst" -ofn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc d_ff_async_reset.ucf -p xc3s400-pq208-5 t_ff_async_reset.ngc t_ff_async_reset.ngd  
+xst -intstyle ise -ifn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.xst" -ofn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc d_ff_async_reset.ucf -p xc3s400-pq208-5 t_ff_async_reset.ngc t_ff_async_reset.ngd  
+xst -intstyle ise -ifn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.xst" -ofn "/home/ise/computer-architecture-lab_2025_Fall/AZ03/t_ff_async_reset.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc d_ff_async_reset.ucf -p xc3s400-pq208-5 t_ff_async_reset.ngc t_ff_async_reset.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o t_ff_async_reset_map.ncd t_ff_async_reset.ngd t_ff_async_reset.pcf 
+par -w -intstyle ise -ol high -t 1 t_ff_async_reset_map.ncd t_ff_async_reset.ncd t_ff_async_reset.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml t_ff_async_reset.twx t_ff_async_reset.ncd -o t_ff_async_reset.twr t_ff_async_reset.pcf -ucf d_ff_async_reset.ucf 
+bitgen -intstyle ise -f t_ff_async_reset.ut t_ff_async_reset.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/t_ff_async_reset.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S03/AZ03/t_ff_async_reset.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc d_ff_async_reset.ucf -p xc3s400-pq208-5 t_ff_async_reset.ngc t_ff_async_reset.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o t_ff_async_reset_map.ncd t_ff_async_reset.ngd t_ff_async_reset.pcf 
+par -w -intstyle ise -ol high -t 1 t_ff_async_reset_map.ncd t_ff_async_reset.ncd t_ff_async_reset.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml t_ff_async_reset.twx t_ff_async_reset.ncd -o t_ff_async_reset.twr t_ff_async_reset.pcf -ucf d_ff_async_reset.ucf 
+bitgen -intstyle ise -f t_ff_async_reset.ut t_ff_async_reset.ncd 

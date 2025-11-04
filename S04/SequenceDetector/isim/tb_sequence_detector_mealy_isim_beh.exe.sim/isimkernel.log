@@ -1,0 +1,10 @@
+Command line:
+   tb_sequence_detector_mealy_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60418
+
+Wed Oct 22 07:33:09 2025
+
+
+ Elaboration Time: 0.06 sec

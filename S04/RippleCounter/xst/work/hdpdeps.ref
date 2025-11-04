@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ClkDivider.vhd 2025/10/22.07:24:51 P.20131013
+EN work/clk_div 1761117901 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ClkDivider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_div/Behavioral 1761117902 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ClkDivider.vhd \
+      EN work/clk_div 1761117901
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.vhd 2025/10/22.07:23:00 P.20131013
+EN work/ripple_counter_tff 1761117905 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ripple_counter_tff/Behavioral 1761117906 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/ripple_counter_tff.vhd \
+      EN work/ripple_counter_tff 1761117905 CP work/clk_div \
+      CP work/t_ff_async_reset
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/t_ff_async_reset.vhd 2025/10/22.07:18:53 P.20131013
+EN work/t_ff_async_reset 1761117903 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/t_ff_async_reset.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/t_ff_async_reset/Behavioral 1761117904 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S04/RippleCounter/t_ff_async_reset.vhd \
+      EN work/t_ff_async_reset 1761117903

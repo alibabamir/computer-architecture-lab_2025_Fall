@@ -1,0 +1,370 @@
+(edif ripple_counter_tff
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 10 22 6 43 27)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure ripple_counter_tff.ngc ripple_counter_tff.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell VCC
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port P
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell FDCE
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port CE
+              (direction INPUT)
+            )
+            (port CLR
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell INV
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library ripple_counter_tff_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell clk_div
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port clk_out
+              (direction OUTPUT)
+            )
+            (port clk_in
+              (direction INPUT)
+            )
+          )
+      )
+    )
+    (cell ripple_counter_tff
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port clk
+              (direction INPUT)
+            )
+            (port reset_n
+              (direction INPUT)
+            )
+            (port (array (rename q "q<3:0>") 4)
+              (direction OUTPUT))
+            (designator "xc3s400-5-pq208")
+            (property TYPE (string "ripple_counter_tff") (owner "Xilinx"))
+            (property BUS_INFO (string "4:OUTPUT:q<3:0>") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "ripple_counter_tff_ripple_counter_tff") (owner "Xilinx"))
+          )
+          (contents
+            (instance XST_VCC
+              (viewRef view_1 (cellRef VCC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename tff3_q_reg_renamed_0 "tff3/q_reg")
+              (viewRef view_1 (cellRef FDCE (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance (rename tff2_q_reg_renamed_1 "tff2/q_reg")
+              (viewRef view_1 (cellRef FDCE (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance (rename tff1_q_reg_renamed_2 "tff1/q_reg")
+              (viewRef view_1 (cellRef FDCE (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance (rename tff0_q_reg_renamed_3 "tff0/q_reg")
+              (viewRef view_1 (cellRef FDCE (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance (rename tff3_U1 "tff3/U1")
+              (viewRef view_1 (cellRef clk_div (libraryRef ripple_counter_tff_lib)))
+            )
+            (instance (rename tff2_U1 "tff2/U1")
+              (viewRef view_1 (cellRef clk_div (libraryRef ripple_counter_tff_lib)))
+            )
+            (instance (rename tff1_U1 "tff1/U1")
+              (viewRef view_1 (cellRef clk_div (libraryRef ripple_counter_tff_lib)))
+            )
+            (instance (rename tff0_U1 "tff0/U1")
+              (viewRef view_1 (cellRef clk_div (libraryRef ripple_counter_tff_lib)))
+            )
+            (instance (rename clk_IBUF_renamed_4 "clk_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename reset_n_IBUF_renamed_5 "reset_n_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance q_3_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance q_2_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance q_1_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance q_0_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename tff0_reset_n_inv1_INV_0 "tff0/reset_n_inv1_INV_0")
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename tff3_q_reg_not00011_INV_0 "tff3/q_reg_not00011_INV_0")
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename tff2_q_reg_not00011_INV_0 "tff2/q_reg_not00011_INV_0")
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename tff1_q_reg_not00011_INV_0 "tff1/q_reg_not00011_INV_0")
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename tff0_q_reg_not00011_INV_0 "tff0/q_reg_not00011_INV_0")
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net N1
+              (joined
+                (portRef P (instanceRef XST_VCC))
+                (portRef CE (instanceRef tff3_q_reg_renamed_0))
+                (portRef CE (instanceRef tff2_q_reg_renamed_1))
+                (portRef CE (instanceRef tff1_q_reg_renamed_2))
+                (portRef CE (instanceRef tff0_q_reg_renamed_3))
+              )
+            )
+            (net clk
+              (joined
+                (portRef clk)
+                (portRef I (instanceRef clk_IBUF_renamed_4))
+              )
+            )
+            (net clk_IBUF
+              (joined
+                (portRef clk_in (instanceRef tff0_U1))
+                (portRef O (instanceRef clk_IBUF_renamed_4))
+              )
+            )
+            (net (rename q_0_ "q<0>")
+              (joined
+                (portRef (member q 3))
+                (portRef O (instanceRef q_0_OBUF))
+              )
+            )
+            (net (rename q_1_ "q<1>")
+              (joined
+                (portRef (member q 2))
+                (portRef O (instanceRef q_1_OBUF))
+              )
+            )
+            (net (rename q_2_ "q<2>")
+              (joined
+                (portRef (member q 1))
+                (portRef O (instanceRef q_2_OBUF))
+              )
+            )
+            (net (rename q_3_ "q<3>")
+              (joined
+                (portRef (member q 0))
+                (portRef O (instanceRef q_3_OBUF))
+              )
+            )
+            (net reset_n
+              (joined
+                (portRef reset_n)
+                (portRef I (instanceRef reset_n_IBUF_renamed_5))
+              )
+            )
+            (net reset_n_IBUF
+              (joined
+                (portRef O (instanceRef reset_n_IBUF_renamed_5))
+                (portRef I (instanceRef tff0_reset_n_inv1_INV_0))
+              )
+            )
+            (net (rename tff0_clk_d "tff0/clk_d")
+              (joined
+                (portRef C (instanceRef tff0_q_reg_renamed_3))
+                (portRef clk_out (instanceRef tff0_U1))
+              )
+            )
+            (net (rename tff0_q_reg "tff0/q_reg")
+              (joined
+                (portRef Q (instanceRef tff0_q_reg_renamed_3))
+                (portRef clk_in (instanceRef tff1_U1))
+                (portRef I (instanceRef q_0_OBUF))
+                (portRef I (instanceRef tff0_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff0_q_reg_not0001 "tff0/q_reg_not0001")
+              (joined
+                (portRef D (instanceRef tff0_q_reg_renamed_3))
+                (portRef O (instanceRef tff0_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff0_reset_n_inv "tff0/reset_n_inv")
+              (joined
+                (portRef CLR (instanceRef tff0_q_reg_renamed_3))
+                (portRef CLR (instanceRef tff3_q_reg_renamed_0))
+                (portRef CLR (instanceRef tff2_q_reg_renamed_1))
+                (portRef CLR (instanceRef tff1_q_reg_renamed_2))
+                (portRef O (instanceRef tff0_reset_n_inv1_INV_0))
+              )
+            )
+            (net (rename tff1_clk_d "tff1/clk_d")
+              (joined
+                (portRef C (instanceRef tff1_q_reg_renamed_2))
+                (portRef clk_out (instanceRef tff1_U1))
+              )
+            )
+            (net (rename tff1_q_reg "tff1/q_reg")
+              (joined
+                (portRef Q (instanceRef tff1_q_reg_renamed_2))
+                (portRef clk_in (instanceRef tff2_U1))
+                (portRef I (instanceRef q_1_OBUF))
+                (portRef I (instanceRef tff1_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff1_q_reg_not0001 "tff1/q_reg_not0001")
+              (joined
+                (portRef D (instanceRef tff1_q_reg_renamed_2))
+                (portRef O (instanceRef tff1_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff2_clk_d "tff2/clk_d")
+              (joined
+                (portRef C (instanceRef tff2_q_reg_renamed_1))
+                (portRef clk_out (instanceRef tff2_U1))
+              )
+            )
+            (net (rename tff2_q_reg "tff2/q_reg")
+              (joined
+                (portRef Q (instanceRef tff2_q_reg_renamed_1))
+                (portRef clk_in (instanceRef tff3_U1))
+                (portRef I (instanceRef q_2_OBUF))
+                (portRef I (instanceRef tff2_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff2_q_reg_not0001 "tff2/q_reg_not0001")
+              (joined
+                (portRef D (instanceRef tff2_q_reg_renamed_1))
+                (portRef O (instanceRef tff2_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff3_clk_d "tff3/clk_d")
+              (joined
+                (portRef C (instanceRef tff3_q_reg_renamed_0))
+                (portRef clk_out (instanceRef tff3_U1))
+              )
+            )
+            (net (rename tff3_q_reg "tff3/q_reg")
+              (joined
+                (portRef Q (instanceRef tff3_q_reg_renamed_0))
+                (portRef I (instanceRef q_3_OBUF))
+                (portRef I (instanceRef tff3_q_reg_not00011_INV_0))
+              )
+            )
+            (net (rename tff3_q_reg_not0001 "tff3/q_reg_not0001")
+              (joined
+                (portRef D (instanceRef tff3_q_reg_renamed_0))
+                (portRef O (instanceRef tff3_q_reg_not00011_INV_0))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design ripple_counter_tff
+    (cellRef ripple_counter_tff
+      (libraryRef ripple_counter_tff_lib)
+    )
+    (property PART (string "xc3s400-5-pq208") (owner "Xilinx"))
+  )
+)
+
