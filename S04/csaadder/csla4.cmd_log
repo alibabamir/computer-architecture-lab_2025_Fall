@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 csla4.ngc csla4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o csla4_map.ncd csla4.ngd csla4.pcf 
+par -w -intstyle ise -ol high -t 1 csla4_map.ncd csla4.ncd csla4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml csla4.twx csla4.ncd -o csla4.twr csla4.pcf 
+bitgen -intstyle ise -f csla4.ut csla4.ncd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc csla4.ucf -p xc3s400-pq208-4 csla4.ngc csla4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o csla4_map.ncd csla4.ngd csla4.pcf 
+par -w -intstyle ise -ol high -t 1 csla4_map.ncd csla4.ncd csla4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml csla4.twx csla4.ncd -o csla4.twr csla4.pcf -ucf csla4.ucf 
+bitgen -intstyle ise -f csla4.ut csla4.ncd 

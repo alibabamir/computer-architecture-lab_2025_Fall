@@ -1,0 +1,28 @@
+Command line:
+   tb_rca4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49177
+
+Wed Oct 29 13:09:04 2025
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 672.58 Meg
+
+ Total Signals          : 75
+ Total Nets             : 31
+ Total Signal Drivers   : 25
+ Total Blocks           : 21
+ Total Primitive Blocks : 11
+ Total Processes        : 23
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 414
+
+ Total Simulation Time: 0.109201 sec
+
+ Current Memory Usage: 672.58 Meg
+
+Wed Oct 29 13:25:27 2025
+

@@ -1,0 +1,7 @@
+vhdl work "full_adder.vhd"
+vhdl work "rca2.vhd"
+vhdl work "mux2_vec2.vhd"
+vhdl work "mux2_bit.vhd"
+vhdl work "csla_block.vhd"
+vhdl work "csla4.vhd"
+vhdl work "tb_csla4.vhd"

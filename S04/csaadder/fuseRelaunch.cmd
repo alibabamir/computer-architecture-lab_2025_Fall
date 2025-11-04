@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/H_B/csaadder/tb_csla4_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/H_B/csaadder/tb_csla4_beh.prj" "work.tb_csla4" 

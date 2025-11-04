@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/CLA_bit/tb_cla4.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/CLA_bit/tb_cla4.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/CLA_bit/tb_cla4.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/CLA_bit/tb_cla4.syr" 

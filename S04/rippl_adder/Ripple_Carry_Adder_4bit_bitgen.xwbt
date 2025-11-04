@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Lenovo\Desktop\H_B\rippl_adder\Ripple_Carry_Adder_4bit.ncd
+OUTFILE=C:\Users\Lenovo\Desktop\H_B\rippl_adder\Ripple_Carry_Adder_4bit.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=C:\Users\Lenovo\Desktop\H_B\rippl_adder
+LICENSE=WebPack
+USER_INFO=__0_0_0

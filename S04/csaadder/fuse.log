@@ -1,0 +1,29 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Lenovo/Desktop/H_B/csaadder/tb_csla4_isim_beh.exe -prj C:/Users/Lenovo/Desktop/H_B/csaadder/tb_csla4_beh.prj work.tb_csla4 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/rca2.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_vec2.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_bit.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/csla_block.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.vhd" into library work
+Parsing VHDL file "C:/Users/Lenovo/Desktop/H_B/csaadder/tb_csla4.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture rtl of entity full_adder [full_adder_default]
+Compiling architecture structural of entity rca2 [rca2_default]
+Compiling architecture rtl of entity mux2_vec2 [mux2_vec2_default]
+Compiling architecture rtl of entity mux2_bit [mux2_bit_default]
+Compiling architecture structural of entity csla_block [csla_block_default]
+Compiling architecture structural of entity csla4 [csla4_default]
+Compiling architecture sim of entity tb_csla4
+Time Resolution for simulation is 1ps.
+Compiled 16 VHDL Units
+Built simulation executable C:/Users/Lenovo/Desktop/H_B/csaadder/tb_csla4_isim_beh.exe
+Fuse Memory Usage: 34908 KB
+Fuse CPU Usage: 343 ms

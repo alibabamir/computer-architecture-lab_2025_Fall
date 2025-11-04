@@ -1,0 +1,28 @@
+Command line:
+   tb_csla4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49164
+
+Wed Oct 29 11:27:19 2025
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 672.584 Meg
+
+ Total Signals          : 123
+ Total Nets             : 47
+ Total Signal Drivers   : 33
+ Total Blocks           : 22
+ Total Primitive Blocks : 14
+ Total Processes        : 31
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 530
+
+ Total Simulation Time: 0.078 sec
+
+ Current Memory Usage: 829.87 Meg
+
+Wed Oct 29 11:29:19 2025
+
