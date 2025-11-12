@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/H_B/rippl_adder/tb_rca4_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/H_B/rippl_adder/tb_rca4_beh.prj" "work.tb_rca4" 
