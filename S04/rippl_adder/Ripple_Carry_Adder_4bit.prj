@@ -1,3 +1,0 @@
-vhdl work "Half_Adder.vhd"
-vhdl work "Full_Adder.vhd"
-vhdl work "Ripple_Carry_Adder_4bit.vhd"

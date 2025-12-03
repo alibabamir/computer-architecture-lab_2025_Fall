@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/Lenovo/Desktop/H_B/csaadder/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Lenovo/Desktop/H_B/csaadder/xst"
-elaborate
--ifn csla_block.prj
--ifmt mixed

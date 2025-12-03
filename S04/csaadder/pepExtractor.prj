@@ -1,6 +1,0 @@
-work	"csla4.vhd"
-work	"csla_block.vhd"
-work	"full_adder.vhd"
-work	"mux2_bit.vhd"
-work	"mux2_vec2.vhd"
-work	"rca2.vhd"

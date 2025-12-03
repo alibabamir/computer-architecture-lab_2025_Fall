@@ -1,6 +1,0 @@
-EN half_adder NULL C:/Users/Lenovo/Desktop/H_B/rippl_adder/Half_Adder.vhd sub00/vhpl00 1761733434
-AR half_adder dataflow C:/Users/Lenovo/Desktop/H_B/rippl_adder/Half_Adder.vhd sub00/vhpl01 1761733435
-EN full_adder NULL C:/Users/Lenovo/Desktop/H_B/rippl_adder/Full_Adder.vhd sub00/vhpl02 1761733436
-AR full_adder structure C:/Users/Lenovo/Desktop/H_B/rippl_adder/Full_Adder.vhd sub00/vhpl03 1761733437
-AR ripple_carry_adder_4bit structure C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.vhd sub00/vhpl05 1761733439
-EN ripple_carry_adder_4bit NULL C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.vhd sub00/vhpl04 1761733438
