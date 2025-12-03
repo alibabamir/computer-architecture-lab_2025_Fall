@@ -1,0 +1,17 @@
+
+NET "m[3]" LOC = P183;
+NET "m[2]" LOC = P182;
+NET "m[1]" LOC = P181;
+NET "m[0]" LOC = P180;
+NET "r[3]" LOC = P171;
+NET "r[2]" LOC = P169;
+NET "r[1]" LOC = P168;
+NET "r[0]" LOC = P167;
+NET "result[7]" LOC = P71;
+NET "result[6]" LOC = P68;
+NET "result[5]" LOC = P67;
+NET "result[4]" LOC = P65;
+NET "result[3]" LOC = P64;
+NET "result[2]" LOC = P63;
+NET "result[1]" LOC = P62;
+NET "result[0]" LOC = P61;

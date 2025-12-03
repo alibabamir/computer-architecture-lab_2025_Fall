@@ -1,0 +1,14 @@
+AR carrylookaheadadder structural C:/Users/Lenovo/Desktop/H_B/S05/CLA.vhd sub00/vhpl03 1764759906
+AR carrysavemultiplier4bit structural C:/Users/Lenovo/Desktop/H_B/S05/CarrySaveAdderMultiplier.vhd sub00/vhpl11 1764760449
+AR carrylookaheadlogic behavioral C:/Users/Lenovo/Desktop/H_B/S05/CLA_LOGIC.vhd sub00/vhpl01 1764759904
+EN arraymultiplier4bit NULL C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier.vhd sub00/vhpl04 1764759907
+EN half_adder NULL C:/Users/Lenovo/Desktop/H_B/S05/HalfAdder.vhd sub00/vhpl06 1764760444
+EN carrylookaheadadder NULL C:/Users/Lenovo/Desktop/H_B/S05/CLA.vhd sub00/vhpl02 1764759905
+EN carrysavemultiplier4bit NULL C:/Users/Lenovo/Desktop/H_B/S05/CarrySaveAdderMultiplier.vhd sub00/vhpl10 1764760448
+EN carrylookaheadlogic NULL C:/Users/Lenovo/Desktop/H_B/S05/CLA_LOGIC.vhd sub00/vhpl00 1764759903
+EN booth_multiplier NULL C:/Users/Lenovo/Desktop/H_B/S05/Booth.vhd sub00/vhpl12 1764763253
+AR arraymultiplier4bit structural C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier.vhd sub00/vhpl05 1764759908
+EN full_adder NULL C:/Users/Lenovo/Desktop/H_B/S05/FullAdder.vhd sub00/vhpl08 1764760446
+AR full_adder behavioral C:/Users/Lenovo/Desktop/H_B/S05/FullAdder.vhd sub00/vhpl09 1764760447
+AR half_adder behavioral C:/Users/Lenovo/Desktop/H_B/S05/HalfAdder.vhd sub00/vhpl07 1764760445
+AR booth_multiplier behavior C:/Users/Lenovo/Desktop/H_B/S05/Booth.vhd sub00/vhpl13 1764763254

@@ -1,0 +1,3 @@
+vhdl work "CLA_LOGIC.vhd"
+vhdl work "CLA.vhd"
+vhdl work "ArrayMultiplier.vhd"

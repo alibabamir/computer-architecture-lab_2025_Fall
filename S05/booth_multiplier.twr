@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml booth_multiplier.twx booth_multiplier.ncd -o
+booth_multiplier.twr booth_multiplier.pcf -ucf CarrySaveMultiplier4bit.ucf
+
+Design file:              booth_multiplier.ncd
+Physical constraint file: booth_multiplier.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+m<0>           |result<0>      |   14.705|
+m<0>           |result<1>      |   17.887|
+m<0>           |result<2>      |   19.318|
+m<0>           |result<3>      |   20.015|
+m<0>           |result<4>      |   21.149|
+m<0>           |result<5>      |   21.015|
+m<0>           |result<6>      |   21.814|
+m<0>           |result<7>      |   21.160|
+m<1>           |result<1>      |   17.546|
+m<1>           |result<2>      |   18.977|
+m<1>           |result<3>      |   19.674|
+m<1>           |result<4>      |   20.808|
+m<1>           |result<5>      |   20.674|
+m<1>           |result<6>      |   21.473|
+m<1>           |result<7>      |   20.819|
+m<2>           |result<2>      |   16.257|
+m<2>           |result<3>      |   17.602|
+m<2>           |result<4>      |   18.736|
+m<2>           |result<5>      |   18.798|
+m<2>           |result<6>      |   19.723|
+m<2>           |result<7>      |   19.069|
+m<3>           |result<3>      |   17.308|
+m<3>           |result<4>      |   18.442|
+m<3>           |result<5>      |   18.504|
+m<3>           |result<6>      |   19.429|
+m<3>           |result<7>      |   18.775|
+r<0>           |result<0>      |   18.104|
+r<0>           |result<1>      |   18.664|
+r<0>           |result<2>      |   19.626|
+r<0>           |result<3>      |   19.152|
+r<0>           |result<4>      |   20.286|
+r<0>           |result<5>      |   20.211|
+r<0>           |result<6>      |   20.992|
+r<0>           |result<7>      |   20.338|
+r<1>           |result<0>      |   17.345|
+r<1>           |result<1>      |   17.905|
+r<1>           |result<2>      |   18.867|
+r<1>           |result<3>      |   18.393|
+r<1>           |result<4>      |   19.527|
+r<1>           |result<5>      |   19.452|
+r<1>           |result<6>      |   20.239|
+r<1>           |result<7>      |   19.585|
+r<2>           |result<0>      |   16.898|
+r<2>           |result<1>      |   17.458|
+r<2>           |result<2>      |   18.420|
+r<2>           |result<3>      |   18.143|
+r<2>           |result<4>      |   19.277|
+r<2>           |result<5>      |   19.143|
+r<2>           |result<6>      |   19.942|
+r<2>           |result<7>      |   19.288|
+r<3>           |result<0>      |   16.495|
+r<3>           |result<1>      |   17.055|
+r<3>           |result<2>      |   18.034|
+r<3>           |result<3>      |   18.126|
+r<3>           |result<4>      |   19.260|
+r<3>           |result<5>      |   19.126|
+r<3>           |result<6>      |   19.925|
+r<3>           |result<7>      |   19.271|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Dec 03 15:31:15 2025 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 144 MB
+
+
+

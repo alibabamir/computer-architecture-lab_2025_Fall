@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier4bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_4bit.ucf -p xc3s400-pq208-5 ArrayMultiplier4bit.ngc ArrayMultiplier4bit.ngd  
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/S05/ArrayMultiplier4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_4bit.ucf -p xc3s400-pq208-5 ArrayMultiplier4bit.ngc ArrayMultiplier4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ArrayMultiplier4bit_map.ncd ArrayMultiplier4bit.ngd ArrayMultiplier4bit.pcf 
+par -w -intstyle ise -ol high -t 1 ArrayMultiplier4bit_map.ncd ArrayMultiplier4bit.ncd ArrayMultiplier4bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ArrayMultiplier4bit.twx ArrayMultiplier4bit.ncd -o ArrayMultiplier4bit.twr ArrayMultiplier4bit.pcf -ucf Multiplier_4bit.ucf 
+bitgen -intstyle ise -f ArrayMultiplier4bit.ut ArrayMultiplier4bit.ncd 

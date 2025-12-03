@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/H_B/S05/Multiplier_4bit_tb_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/H_B/S05/Multiplier_4bit_tb_beh.prj" "work.Multiplier_4bit_tb" 
