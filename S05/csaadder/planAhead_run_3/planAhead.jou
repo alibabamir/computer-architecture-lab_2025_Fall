@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Nov 12 10:19:42 2025
+# Process ID: 3525
+# Log file: /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/planAhead_run_3/planAhead.log
+# Journal file: /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/pa.fromNetlist.tcl

@@ -1,0 +1,10 @@
+Command line:
+   CLA_4bit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51074
+
+Wed Nov 12 09:52:03 2025
+
+
+ Elaboration Time: 0.06 sec

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register_tb_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register_tb_beh.prj" "work.shift_register_tb" 

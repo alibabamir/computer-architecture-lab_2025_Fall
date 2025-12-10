@@ -1,0 +1,10 @@
+Command line:
+   tb_csla4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  38180
+
+Wed Nov 12 10:01:47 2025
+
+
+ Elaboration Time: 0.09 sec

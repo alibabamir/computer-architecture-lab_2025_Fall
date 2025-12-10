@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 Ripple_Carry_Adder_4bit.ngc Ripple_Carry_Adder_4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Ripple_Carry_Adder_4bit_map.ncd Ripple_Carry_Adder_4bit.ngd Ripple_Carry_Adder_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Ripple_Carry_Adder_4bit_map.ncd Ripple_Carry_Adder_4bit.ncd Ripple_Carry_Adder_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ripple_Carry_Adder_4bit.twx Ripple_Carry_Adder_4bit.ncd -o Ripple_Carry_Adder_4bit.twr Ripple_Carry_Adder_4bit.pcf 
+bitgen -intstyle ise -f Ripple_Carry_Adder_4bit.ut Ripple_Carry_Adder_4bit.ncd 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ripple_Carry_Adder_4bit.ucf -p xc3s400-pq208-4 Ripple_Carry_Adder_4bit.ngc Ripple_Carry_Adder_4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Ripple_Carry_Adder_4bit_map.ncd Ripple_Carry_Adder_4bit.ngd Ripple_Carry_Adder_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Ripple_Carry_Adder_4bit_map.ncd Ripple_Carry_Adder_4bit.ncd Ripple_Carry_Adder_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ripple_Carry_Adder_4bit.twx Ripple_Carry_Adder_4bit.ncd -o Ripple_Carry_Adder_4bit.twr Ripple_Carry_Adder_4bit.pcf -ucf Ripple_Carry_Adder_4bit.ucf 
+bitgen -intstyle ise -f Ripple_Carry_Adder_4bit.ut Ripple_Carry_Adder_4bit.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ripple_Carry_Adder_4bit.ucf -p xc3s400-pq208-4 Ripple_Carry_Adder_4bit.ngc Ripple_Carry_Adder_4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o Ripple_Carry_Adder_4bit_map.ncd Ripple_Carry_Adder_4bit.ngd Ripple_Carry_Adder_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 Ripple_Carry_Adder_4bit_map.ncd Ripple_Carry_Adder_4bit.ncd Ripple_Carry_Adder_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ripple_Carry_Adder_4bit.twx Ripple_Carry_Adder_4bit.ncd -o Ripple_Carry_Adder_4bit.twr Ripple_Carry_Adder_4bit.pcf -ucf Ripple_Carry_Adder_4bit.ucf 
+bitgen -intstyle ise -f Ripple_Carry_Adder_4bit.ut Ripple_Carry_Adder_4bit.ncd 

@@ -1,0 +1,4 @@
+vhdl isim_temp "Half_Adder.vhd"
+vhdl isim_temp "Full_Adder.vhd"
+vhdl isim_temp "Ripple_Carry_Adder_4bit.vhd"
+vhdl isim_temp "tb_rca4.vhd"

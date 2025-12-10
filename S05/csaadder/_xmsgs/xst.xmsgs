@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/csla4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/csla4/structural</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/csla_block</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/csla_block.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/csla_block/structural</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/csla_block.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux2_bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux2_bit/rtl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux2_vec2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_vec2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux2_vec2/rtl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_vec2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/rca2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/rca2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/rca2/structural</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/rca2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/full_adder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/full_adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/full_adder/rtl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/csaadder/full_adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

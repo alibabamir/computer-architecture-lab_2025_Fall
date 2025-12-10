@@ -1,0 +1,50 @@
+V3 24
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd 2025/11/12.09:28:28 P.20131013
+EN work/csla4 1762942727 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/csla4/structural 1762942728 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd \
+      EN work/csla4 1762942727 AR work/csla_block/structural 1762942726
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd 2025/11/12.10:01:38 P.20131013
+EN work/csla_block 1762942725 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/csla_block/structural 1762942726 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd \
+      EN work/csla_block 1762942725 AR work/rca2/structural 1762942720 \
+      AR work/mux2_vec2/rtl 1762942722 AR work/mux2_bit/rtl 1762942724
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd 2025/11/12.09:28:28 P.20131013
+EN work/full_adder 1762942717 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/rtl 1762942718 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd \
+      EN work/full_adder 1762942717
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd 2025/11/12.09:28:28 P.20131013
+EN work/mux2_bit 1762942723 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2_bit/rtl 1762942724 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd \
+      EN work/mux2_bit 1762942723
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd 2025/11/12.09:28:28 P.20131013
+EN work/mux2_vec2 1762942721 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2_vec2/rtl 1762942722 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd \
+      EN work/mux2_vec2 1762942721
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd 2025/11/12.09:28:28 P.20131013
+EN work/rca2 1762942719 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/rca2/structural 1762942720 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd \
+      EN work/rca2 1762942719 AR work/full_adder/rtl 1762942718
+FL C:/Users/Lenovo/Desktop/H_B/csaadder/csla4.vhd 2025/10/29.12:13:29 P.20131013
+FL C:/Users/Lenovo/Desktop/H_B/csaadder/csla_block.vhd 2025/10/29.10:49:01 P.20131013
+FL C:/Users/Lenovo/Desktop/H_B/csaadder/full_adder.vhd 2025/10/29.10:29:01 P.20131013
+FL C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_bit.vhd 2025/10/29.10:49:01 P.20131013
+FL C:/Users/Lenovo/Desktop/H_B/csaadder/mux2_vec2.vhd 2025/10/29.10:49:01 P.20131013
+FL C:/Users/Lenovo/Desktop/H_B/csaadder/rca2.vhd 2025/10/29.10:49:01 P.20131013

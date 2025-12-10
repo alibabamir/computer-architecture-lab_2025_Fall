@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/tb_rca4_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/tb_rca4_beh.prj" "work.tb_rca4" 

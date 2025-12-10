@@ -1,0 +1,10 @@
+Command line:
+   tb_rca4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58792
+
+Wed Nov 12 09:37:37 2025
+
+
+ Elaboration Time: 0.1 sec

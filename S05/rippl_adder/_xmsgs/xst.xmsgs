@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Ripple_Carry_Adder_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Ripple_Carry_Adder_4bit/Structure</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/rippl_adder/Ripple_Carry_Adder_4bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Full_Adder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/rippl_adder/Full_Adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Full_Adder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Full_Adder/Structure</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/rippl_adder/Full_Adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Full_Adder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Half_Adder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/rippl_adder/Half_Adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Half_Adder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Half_Adder/Dataflow</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/rippl_adder/Half_Adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Half_Adder.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

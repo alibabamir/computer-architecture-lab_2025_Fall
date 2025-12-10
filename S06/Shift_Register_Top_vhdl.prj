@@ -1,0 +1,5 @@
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register.vhd"
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/multiplex_7seg.vhd"
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider_100Hz.vhd"
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider.vhd"
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S06/top_module.vhd"

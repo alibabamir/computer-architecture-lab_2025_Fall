@@ -1,0 +1,6 @@
+EN half_adder NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Half_Adder.vhd sub00/vhpl00 1762942249
+AR half_adder dataflow /home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Half_Adder.vhd sub00/vhpl01 1762942250
+EN full_adder NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Full_Adder.vhd sub00/vhpl02 1762942251
+AR full_adder structure /home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Full_Adder.vhd sub00/vhpl03 1762942252
+AR ripple_carry_adder_4bit structure /home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.vhd sub00/vhpl05 1762942254
+EN ripple_carry_adder_4bit NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.vhd sub00/vhpl04 1762942253

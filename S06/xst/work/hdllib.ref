@@ -1,0 +1,10 @@
+AR shift_register_top behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S06/top_module.vhd sub00/vhpl09 1765363791
+EN multiplex_7segment NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/multiplex_7seg.vhd sub00/vhpl06 1765363788
+EN shift_register_top NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/top_module.vhd sub00/vhpl08 1765363790
+AR clock_divider behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider.vhd sub00/vhpl01 1765363783
+EN clock_divider_100hz NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider_100Hz.vhd sub00/vhpl02 1765363784
+AR shift_register behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register.vhd sub00/vhpl05 1765363787
+EN clock_divider NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider.vhd sub00/vhpl00 1765363782
+AR clock_divider_100hz behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider_100Hz.vhd sub00/vhpl03 1765363785
+AR multiplex_7segment behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S06/multiplex_7seg.vhd sub00/vhpl07 1765363789
+EN shift_register NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register.vhd sub00/vhpl04 1765363786

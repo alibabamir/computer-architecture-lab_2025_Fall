@@ -1,0 +1,12 @@
+EN mux2_bit NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd sub00/vhpl06 1762942723
+EN mux2_vec2 NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd sub00/vhpl04 1762942721
+AR csla4 structural /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd sub00/vhpl11 1762942728
+EN rca2 NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd sub00/vhpl02 1762942719
+EN csla_block NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd sub00/vhpl08 1762942725
+AR mux2_bit rtl /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_bit.vhd sub00/vhpl07 1762942724
+AR full_adder rtl /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd sub00/vhpl01 1762942718
+AR rca2 structural /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/rca2.vhd sub00/vhpl03 1762942720
+EN full_adder NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/full_adder.vhd sub00/vhpl00 1762942717
+AR csla_block structural /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla_block.vhd sub00/vhpl09 1762942726
+EN csla4 NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.vhd sub00/vhpl10 1762942727
+AR mux2_vec2 rtl /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/mux2_vec2.vhd sub00/vhpl05 1762942722

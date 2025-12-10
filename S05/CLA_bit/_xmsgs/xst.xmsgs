@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CLA_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/CLA_bit/CLA_4bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/CLA_bit/CLA_4bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/CLA_4bit/Dataflow</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Lenovo/Desktop/H_B/CLA_bit/CLA_4bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/VM/computer-architecture-lab_2025_Fall/S05/CLA_bit/CLA_4bit.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

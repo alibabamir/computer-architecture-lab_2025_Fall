@@ -1,0 +1,3 @@
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Half_Adder.vhd"
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Full_Adder.vhd"
+vhdl work "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/rippl_adder/Ripple_Carry_Adder_4bit.vhd"

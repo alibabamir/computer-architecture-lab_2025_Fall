@@ -1,0 +1,43 @@
+V3 19
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider.vhd 2025/10/15.04:19:30 P.20131013
+EN work/Clock_Divider 1765363782 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Clock_Divider/Behavioral 1765363783 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider.vhd \
+      EN work/Clock_Divider 1765363782
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider_100Hz.vhd 2025/10/15.04:19:30 P.20131013
+EN work/Clock_Divider_100Hz 1765363784 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider_100Hz.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Clock_Divider_100Hz/Behavioral 1765363785 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/clock_divider_100Hz.vhd \
+      EN work/Clock_Divider_100Hz 1765363784
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/multiplex_7seg.vhd 2025/10/15.04:19:30 P.20131013
+EN work/multiplex_7segment 1765363788 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/multiplex_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/multiplex_7segment/Behavioral 1765363789 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/multiplex_7seg.vhd \
+      EN work/multiplex_7segment 1765363788
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register.vhd 2025/10/15.04:19:30 P.20131013
+EN work/Shift_Register 1765363786 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Shift_Register/Behavioral 1765363787 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/shift_register.vhd \
+      EN work/Shift_Register 1765363786
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/top_module.vhd 2025/10/15.04:19:30 P.20131013
+EN work/Shift_Register_Top 1765363790 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/top_module.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Shift_Register_Top/Behavioral 1765363791 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S06/top_module.vhd \
+      EN work/Shift_Register_Top 1765363790 CP work/Clock_Divider \
+      CP work/Clock_Divider_100Hz CP work/Shift_Register \
+      CP work/multiplex_7segment

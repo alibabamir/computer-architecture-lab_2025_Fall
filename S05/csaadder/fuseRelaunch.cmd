@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/tb_csla4_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/tb_csla4_beh.prj" "work.tb_csla4" 

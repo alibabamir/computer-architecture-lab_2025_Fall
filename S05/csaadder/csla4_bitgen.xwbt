@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.ncd
+OUTFILE=/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/csla4.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=/home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,23 @@
+ISim log file
+Running: /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/tb_csla4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/VM/computer-architecture-lab_2025_Fall/S05/csaadder/tb_csla4_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 10 ns: Note: a=0 b=0 cin='0' -> sum=0 cout='0' | res5 (cout&sum)=0 (bin='0''0''0''0''0') (/tb_csla4/).
+at 20 ns: Note: a=1 b=1 cin='0' -> sum=2 cout='0' | res5 (cout&sum)=2 (bin='0''0''0''1''0') (/tb_csla4/).
+at 30 ns: Note: a=3 b=1 cin='0' -> sum=4 cout='0' | res5 (cout&sum)=4 (bin='0''0''1''0''0') (/tb_csla4/).
+at 40 ns: Note: a=15 b=1 cin='0' -> sum=0 cout='1' | res5 (cout&sum)=16 (bin='1''0''0''0''0') (/tb_csla4/).
+at 50 ns: Note: a=5 b=10 cin='1' -> sum=0 cout='1' | res5 (cout&sum)=16 (bin='1''0''0''0''0') (/tb_csla4/).
+at 60 ns: Note: a=7 b=7 cin='1' -> sum=15 cout='0' | res5 (cout&sum)=15 (bin='0''1''1''1''1') (/tb_csla4/).
+at 70 ns: Note: a=15 b=15 cin='1' -> sum=15 cout='1' | res5 (cout&sum)=31 (bin='1''1''1''1''1') (/tb_csla4/).
+at 70 ns: Note: DONE. (/tb_csla4/).

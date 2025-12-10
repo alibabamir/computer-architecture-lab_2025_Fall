@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/H_B/CLA_bit/CLA_4bit.xst" -ofn "C:/Users/Lenovo/Desktop/H_B/CLA_bit/CLA_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 CLA_4bit.ngc CLA_4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o CLA_4bit_map.ncd CLA_4bit.ngd CLA_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_4bit_map.ncd CLA_4bit.ncd CLA_4bit.pcf 
+bitgen -intstyle ise -f CLA_4bit.ut CLA_4bit.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CLA_4bit.ucf -p xc3s400-pq208-4 CLA_4bit.ngc CLA_4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o CLA_4bit_map.ncd CLA_4bit.ngd CLA_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_4bit_map.ncd CLA_4bit.ncd CLA_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_4bit.twx CLA_4bit.ncd -o CLA_4bit.twr CLA_4bit.pcf -ucf CLA_4bit.ucf 
+bitgen -intstyle ise -f CLA_4bit.ut CLA_4bit.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/CLA_bit/CLA_4bit.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S05/CLA_bit/CLA_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CLA_4bit.ucf -p xc3s400-pq208-4 CLA_4bit.ngc CLA_4bit.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o CLA_4bit_map.ncd CLA_4bit.ngd CLA_4bit.pcf 
+par -w -intstyle ise -ol high -t 1 CLA_4bit_map.ncd CLA_4bit.ncd CLA_4bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CLA_4bit.twx CLA_4bit.ncd -o CLA_4bit.twr CLA_4bit.pcf -ucf CLA_4bit.ucf 
+bitgen -intstyle ise -f CLA_4bit.ut CLA_4bit.ncd 

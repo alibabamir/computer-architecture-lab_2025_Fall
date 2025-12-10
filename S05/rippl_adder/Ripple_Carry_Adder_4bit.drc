@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 12 10:11:20 2025
+
+drc -z Ripple_Carry_Adder_4bit.ncd Ripple_Carry_Adder_4bit.pcf
+
+DRC detected 0 errors and 0 warnings.
