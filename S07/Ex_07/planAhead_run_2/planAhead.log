@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Tue Dec 16 13:57:37 2025
+# Process ID: 3565
+# Log file: /home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -3152 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/pa.fromNetlist.tcl
+# create_project -name Ex_07 -dir "/home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/planAhead_run_2" -part xc3s400pq208-5
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     /home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/planAhead_run_2/Ex_07.ppr
+     /home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/planAhead_run_2/Ex_07.data
+
+    while executing
+"create_project -name Ex_07 -dir "/home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/planAhead_run_2" -part xc3s400pq208-5"
+    (file "/home/ise/VM/computer-architecture-lab_2025_Fall/S07/Ex_07/pa.fromNetlist.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 16 13:58:23 2025...
+INFO: [Common 17-83] Releasing license: PlanAhead

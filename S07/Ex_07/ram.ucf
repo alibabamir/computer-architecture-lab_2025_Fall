@@ -1,0 +1,27 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "addr[3]" LOC = P183;
+NET "addr[2]" LOC = P182;
+NET "addr[1]" LOC = P181;
+NET "addr[0]" LOC = P180;
+NET "input_data[7]" LOC = P171;
+NET "input_data[6]" LOC = P169;
+NET "input_data[5]" LOC = P168;
+NET "input_data[4]" LOC = P167;
+NET "input_data[3]" LOC = P166;
+NET "input_data[2]" LOC = P165;
+NET "input_data[1]" LOC = P162;
+NET "input_data[0]" LOC = P161;
+NET "output_data[7]" LOC = P42;
+NET "output_data[6]" LOC = P43;
+NET "output_data[5]" LOC = P44;
+NET "output_data[4]" LOC = P45;
+NET "output_data[3]" LOC = P46;
+NET "output_data[2]" LOC = P48;
+NET "output_data[1]" LOC = P50;
+NET "output_data[0]" LOC = P51;
+NET "readOut" LOC = P172;
+NET "writeIn" LOC = P176;
+NET "rst" LOC = P190;
+NET "clk" LOC = P184;
