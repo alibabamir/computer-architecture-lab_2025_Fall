@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Structural_Computer.ngc Structural_Computer.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Structural_Computer_map.ncd Structural_Computer.ngd Structural_Computer.pcf 
+par -w -intstyle ise -ol high -t 1 Structural_Computer_map.ncd Structural_Computer.ncd Structural_Computer.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Structural_Computer.twx Structural_Computer.ncd -o Structural_Computer.twr Structural_Computer.pcf 
+bitgen -intstyle ise -f Structural_Computer.ut Structural_Computer.ncd 

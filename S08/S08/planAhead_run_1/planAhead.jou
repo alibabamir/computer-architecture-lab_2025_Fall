@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Dec 24 10:50:54 2025
+# Process ID: 2785
+# Log file: /home/ise/VM/computer-architecture-lab_2025_Fall/S08/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/VM/computer-architecture-lab_2025_Fall/S08/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/VM/computer-architecture-lab_2025_Fall/S08/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P183 [get_ports {dividend[7]}]
+endgroup
+startgroup
+set_property package_pin P182 [get_ports {dividend[6]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {dividend[5]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {dividend[4]}]
+endgroup
+startgroup
+set_property package_pin P178 [get_ports {dividend[3]}]
+endgroup
+startgroup
+set_property package_pin P176 [get_ports {dividend[2]}]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports {dividend[1]}]
+endgroup
+startgroup
+set_property package_pin P172 [get_ports {dividend[0]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {divisor[3]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {divisor[2]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {divisor[1]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {divisor[0]}]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports {quotient[7]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {quotient[6]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {quotient[5]}]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports {quotient[4]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {quotient[3]}]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports {quotient[2]}]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {quotient[1]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports {quotient[0]}]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports {remainder[3]}]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports {remainder[2]}]
+endgroup
+startgroup
+set_property package_pin P63 [get_ports {remainder[1]}]
+endgroup
+startgroup
+set_property package_pin P64 [get_ports {remainder[0]}]
+endgroup
+startgroup
+set_property package_pin P184 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P71 [get_ports dfv]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports done]
+endgroup
+startgroup
+set_property package_pin P190 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P185 [get_ports start]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P189 [get_ports start]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports done]
+endgroup
+startgroup
+set_property package_pin P185 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P190 [get_ports start]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P190 [get_ports start]
+endgroup
+startgroup
+set_property package_pin P161 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P162 [get_ports start]
+endgroup
+save_constraints -force

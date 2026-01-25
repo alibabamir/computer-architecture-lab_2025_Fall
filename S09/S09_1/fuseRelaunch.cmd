@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/System_TB_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/System_TB_beh.prj" "work.System_TB" 

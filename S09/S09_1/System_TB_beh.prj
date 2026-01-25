@@ -1,0 +1,4 @@
+vhdl work "Processor_Unit.vhd"
+vhdl work "Memory_Unit.vhd"
+vhdl work "Computer_System.vhd"
+vhdl work "TB_Computer.vhd"

@@ -1,0 +1,174 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Dec 24 10:50:54 2025
+# Process ID: 2785
+# Log file: /home/ise/VM/computer-architecture-lab_2025_Fall/S08/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/VM/computer-architecture-lab_2025_Fall/S08/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -3160 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/ise/VM/computer-architecture-lab_2025_Fall/S08/pa.fromNetlist.tcl
+# create_project -name S08 -dir "/home/ise/VM/computer-architecture-lab_2025_Fall/S08/planAhead_run_1" -part xc3s400pq208-5
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "/home/ise/VM/computer-architecture-lab_2025_Fall/S08/restoring_divider.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/ise/VM/computer-architecture-lab_2025_Fall/S08} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "restoring_divider.ucf" [current_fileset -constrset]
+Adding file '/home/ise/VM/computer-architecture-lab_2025_Fall/S08/restoring_divider.ucf' to fileset 'constrs_1'
+# add_files [list {restoring_divider.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s400pq208-5
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design restoring_divider.ngc ...
+WARNING:NetListWriters:298 - No output is written to restoring_divider.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file restoring_divider.edif ...
+ngc2edif: Total memory usage is 104144 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/S08.data/cache/restoring_divider_ngc_958e368d.edif]
+Finished Parsing EDIF File [./planAhead_run_1/S08.data/cache/restoring_divider_ngc_958e368d.edif]
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3/spartan3/xc3s400/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3/spartan3/xc3s400/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3/spartan3/xc3s400/pq208/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3/spartan3/xc3s400/pq208/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+Parsing UCF File [/home/ise/VM/computer-architecture-lab_2025_Fall/S08/restoring_divider.ucf]
+Finished Parsing UCF File [/home/ise/VM/computer-architecture-lab_2025_Fall/S08/restoring_divider.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 092622c6
+link_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2730.531 ; gain = 69.184
+startgroup
+set_property package_pin P183 [get_ports {dividend[7]}]
+endgroup
+startgroup
+set_property package_pin P182 [get_ports {dividend[6]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {dividend[5]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {dividend[4]}]
+endgroup
+startgroup
+set_property package_pin P178 [get_ports {dividend[3]}]
+endgroup
+startgroup
+set_property package_pin P176 [get_ports {dividend[2]}]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports {dividend[1]}]
+endgroup
+startgroup
+set_property package_pin P172 [get_ports {dividend[0]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {divisor[3]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {divisor[2]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {divisor[1]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {divisor[0]}]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports {quotient[7]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {quotient[6]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {quotient[5]}]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports {quotient[4]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {quotient[3]}]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports {quotient[2]}]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {quotient[1]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports {quotient[0]}]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports {remainder[3]}]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports {remainder[2]}]
+endgroup
+startgroup
+set_property package_pin P63 [get_ports {remainder[1]}]
+endgroup
+startgroup
+set_property package_pin P64 [get_ports {remainder[0]}]
+endgroup
+startgroup
+set_property package_pin P184 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P71 [get_ports dfv]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports done]
+endgroup
+startgroup
+set_property package_pin P190 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P185 [get_ports start]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P189 [get_ports start]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports done]
+endgroup
+startgroup
+set_property package_pin P185 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P190 [get_ports start]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P190 [get_ports start]
+endgroup
+startgroup
+set_property package_pin P161 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P162 [get_ports start]
+endgroup
+save_constraints -force

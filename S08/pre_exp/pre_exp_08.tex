@@ -1,0 +1,95 @@
+\documentclass[12pt, a4paper]{article}
+
+% --- UNIVERSAL PREAMBLE BLOCK ---
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{fontspec}
+
+% تنظیمات زبان و جهت‌چینش برای موتور LuaLaTeX
+% استفاده از babel به جای xepersian برای سازگاری با محیط
+\usepackage[bidi=basic, layout=counter, provide=*]{babel}
+
+\babelprovide[import, main, mapdigits]{persian}
+\babelprovide[import]{english}
+
+% تنظیم فونت‌ها (استفاده از فونت‌های استاندارد Noto موجود در سیستم)
+\babelfont{rm}{Vazirmatn}
+\babelfont[persian]{rm}{Vazirmatn}
+
+% اصلاح لیست‌ها برای زبان فارسی
+\usepackage{enumitem}
+\setlist[itemize]{label=-}
+
+% بسته‌های مورد نیاز برای جدول و ریاضی
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+
+\title{\vspace{-2cm} \textbf{پیش‌گزارش آزمایش هشتم: طراحی تقسیم‌کننده دودویی}}
+\author{نام دانشجو: محمدرضا حسن‌زاده  \\ شماره دانشجویی: 40226046}
+\date{تاریخ تحویل: \today}
+
+\begin{document}
+
+\maketitle
+
+\section*{۱. هدف آزمایش}
+هدف از این آزمایش، طراحی و پیاده‌سازی سخت‌افزاری یک مدار تقسیم‌کننده دودویی (Binary Divider) با استفاده از زبان توصیف سخت‌افزار (VHDL) است. در این مدار، یک عدد ۸ بیتی (به عنوان مقسوم) بر یک عدد ۴ بیتی (به عنوان مقسوم‌علیه) تقسیم می‌شود و حاصل‌ضرب به صورت خارج‌قسمت و باقی‌مانده در خروجی نمایش داده می‌شود.
+
+\section*{۲. شرح الگوریتم (Restoring Division)}
+برای پیاده‌سازی این مدار از روش «تقسیم با بازگرداندن باقی‌مانده» استفاده می‌شود. روند کلی این الگوریتم مشابه تقسیم دستی اعداد است. 
+در این روش از سه ثبات اصلی استفاده می‌شود:
+\begin{itemize}
+    \item \textbf{ثبات $A (Accumulator)$:} برای نگهداری باقی‌مانده (مقدار اولیه صفر).
+    \item \textbf{ثبات $Q (Quotient)$:} ابتدا حاوی مقسوم است و در انتها خارج‌قسمت را نگه می‌دارد.
+    \item \textbf{ثبات $M (Divisor)$:} حاوی مقسوم‌علیه.
+\end{itemize}
+
+\textbf{مراحل انجام کار (تکرار به تعداد بیت‌ها):}
+\begin{enumerate}
+    \item شیفت منطقی ترکیب ثبات‌های $A$ و $Q$ به سمت چپ (Shift Left AQ).
+    \item تفریق مقسوم‌علیه از ثبات $A$ ($A \leftarrow A - M$).
+    \item بررسی بیت علامت $A$:
+    \begin{itemize}
+        \item اگر $A$ منفی شد: عمل بازگرداندن (Restore) انجام می‌شود ($A \leftarrow A + M$) و بیت کم‌ارزش $Q$ صفر می‌شود.
+        \item اگر $A$ مثبت ماند: نیازی به بازگرداندن نیست و بیت کم‌ارزش $Q$ یک می‌شود.
+    \end{itemize}
+\end{enumerate}
+
+\section*{۳. مثال عددی}
+برای بررسی صحت عملکرد الگوریتم، تقسیم عدد ۵ ($0101_2$) بر ۳ ($0011_2$) را در نظر می‌گیریم. \\
+\textbf{فرض‌ها:} $N=4$ (تعداد مراحل)، $Q=0101$، $M=0011$ و $A=0000$.
+
+\begin{table}[H]
+\centering
+\caption{جدول ردیابی مراحل تقسیم ۵ بر ۳}
+\vspace{0.3cm}
+\begin{tabular}{|c|l|c|c|l|}
+\hline
+\textbf{مرحله} & \textbf{عملیات} & \textbf{ثبات A} & \textbf{ثبات Q} & \textbf{توضیحات} \\
+\hline
+شروع & مقداردهی اولیه & $0000$ & $0101$ & وضعیت اولیه \\
+\hline
+ & Shift Left AQ & $0000$ & $1010$ & شیفت به چپ \\
+1 & Subtract $(A-M)$ & $1101$ & $1010$ & $0 - 3 = -3$ (منفی) \\
+ & Check \& Restore & $\mathbf{0000}$ & $1010$ & بازگردانی A، بیت $Q_0=0$ \\
+\hline
+ & Shift Left AQ & $0001$ & $0100$ & شیفت به چپ \\
+2 & Subtract $(A-M)$ & $1110$ & $0100$ & $1 - 3 = -2$ (منفی) \\
+ & Check \& Restore & $\mathbf{0001}$ & $0100$ & بازگردانی A، بیت $Q_0=0$ \\
+\hline
+ & Shift Left AQ & $0010$ & $1000$ & شیفت به چپ \\
+3 & Subtract $(A-M)$ & $1111$ & $1000$ & $2 - 3 = -1$ (منفی) \\
+ & Check \& Restore & $\mathbf{0010}$ & $1000$ & بازگردانی A، بیت $Q_0=0$ \\
+\hline
+ & Shift Left AQ & $0101$ & $0000$ & شیفت به چپ \\
+4 & Subtract $(A-M)$ & $0010$ & $0000$ & $5 - 3 = +2$ (مثبت) \\
+ & Set Q Bit & $\mathbf{0010}$ & $\mathbf{0001}$ & عدم نیاز به بازگردانی، $Q_0=1$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{نتیجه نهایی:}
+پس از ۴ مرحله، مقدار ثبات $Q$ برابر با $0001$ (خارج‌قسمت = ۱) و مقدار ثبات $A$ برابر با $0010$ (باقی‌مانده = ۲) می‌باشد.
+
+\end{document}

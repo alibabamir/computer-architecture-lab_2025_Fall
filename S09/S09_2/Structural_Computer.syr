@@ -1,0 +1,682 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: Structural_Computer.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Structural_Computer.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Structural_Computer"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : Structural_Computer
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd" is newer than current system time.
+Architecture behavioral of Entity control_unit is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd" is newer than current system time.
+Architecture behavioral of Entity reg_pc is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd" is newer than current system time.
+Architecture behavioral of Entity reg_mar is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd" is newer than current system time.
+Architecture behavioral of Entity reg_ir is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd" is newer than current system time.
+Architecture behavioral of Entity reg_acc is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd" is newer than current system time.
+Architecture behavioral of Entity reg_mdr is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd" is newer than current system time.
+Architecture behavioral of Entity alu_block is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd" is newer than current system time.
+Architecture logic of Entity addr_decoder is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd" is newer than current system time.
+Architecture structural of Entity program_rom is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd" is newer than current system time.
+Architecture structural of Entity data_ram is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd" is newer than current system time.
+Architecture behavioral of Entity input_port is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd" is newer than current system time.
+Architecture behavioral of Entity io_port is up to date.
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd" is newer than current system time.
+Architecture structural of Entity structural_computer is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Structural_Computer> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Control_Unit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Reg_PC> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Reg_MAR> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Reg_IR> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Reg_ACC> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Reg_MDR> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ALU_Block> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Addr_Decoder> in library <work> (architecture <Logic>).
+
+Analyzing hierarchy for entity <Program_ROM> in library <work> (architecture <Structural>).
+
+Analyzing hierarchy for entity <Data_RAM> in library <work> (architecture <Structural>).
+
+Analyzing hierarchy for entity <Input_Port> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <IO_Port> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Structural_Computer> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd" line 46: Unconnected output port 'q_out' of component 'Reg_ACC'.
+Entity <Structural_Computer> analyzed. Unit <Structural_Computer> generated.
+
+Analyzing Entity <Control_Unit> in library <work> (Architecture <Behavioral>).
+Entity <Control_Unit> analyzed. Unit <Control_Unit> generated.
+
+Analyzing Entity <Reg_PC> in library <work> (Architecture <Behavioral>).
+Entity <Reg_PC> analyzed. Unit <Reg_PC> generated.
+
+Analyzing Entity <Reg_MAR> in library <work> (Architecture <Behavioral>).
+Entity <Reg_MAR> analyzed. Unit <Reg_MAR> generated.
+
+Analyzing Entity <Reg_IR> in library <work> (Architecture <Behavioral>).
+Entity <Reg_IR> analyzed. Unit <Reg_IR> generated.
+
+Analyzing Entity <Reg_ACC> in library <work> (Architecture <Behavioral>).
+Entity <Reg_ACC> analyzed. Unit <Reg_ACC> generated.
+
+Analyzing Entity <Reg_MDR> in library <work> (Architecture <Behavioral>).
+Entity <Reg_MDR> analyzed. Unit <Reg_MDR> generated.
+
+Analyzing Entity <ALU_Block> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1561 - "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd" line 60: Mux is complete : default of case is discarded
+Entity <ALU_Block> analyzed. Unit <ALU_Block> generated.
+
+Analyzing Entity <Addr_Decoder> in library <work> (Architecture <Logic>).
+Entity <Addr_Decoder> analyzed. Unit <Addr_Decoder> generated.
+
+Analyzing Entity <Program_ROM> in library <work> (Architecture <Structural>).
+Entity <Program_ROM> analyzed. Unit <Program_ROM> generated.
+
+Analyzing Entity <Data_RAM> in library <work> (Architecture <Structural>).
+Entity <Data_RAM> analyzed. Unit <Data_RAM> generated.
+
+Analyzing Entity <Input_Port> in library <work> (Architecture <Behavioral>).
+Entity <Input_Port> analyzed. Unit <Input_Port> generated.
+
+Analyzing Entity <IO_Port> in library <work> (Architecture <Behavioral>).
+Entity <IO_Port> analyzed. Unit <IO_Port> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Control_Unit>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd".
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 23                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s_reset                                        |
+    | Power Up State     | s_reset                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Control_Unit> synthesized.
+
+
+Synthesizing Unit <Reg_PC>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd".
+    Found 8-bit tristate buffer for signal <data_bus>.
+    Found 8-bit up counter for signal <pc_val>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   8 Tristate(s).
+Unit <Reg_PC> synthesized.
+
+
+Synthesizing Unit <Reg_MAR>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd".
+WARNING:Xst:647 - Input <data_in<7:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 5-bit register for signal <addr_out>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <Reg_MAR> synthesized.
+
+
+Synthesizing Unit <Reg_IR>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd".
+    Found 8-bit tristate buffer for signal <data_bus>.
+    Found 8-bit register for signal <ir_val>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   8 Tristate(s).
+Unit <Reg_IR> synthesized.
+
+
+Synthesizing Unit <Reg_ACC>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd".
+    Found 8-bit tristate buffer for signal <data_bus>.
+    Found 8-bit register for signal <internal_val>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   8 Tristate(s).
+Unit <Reg_ACC> synthesized.
+
+
+Synthesizing Unit <Reg_MDR>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd".
+    Found 8-bit tristate buffer for signal <bus_ext>.
+    Found 8-bit tristate buffer for signal <bus_int>.
+    Found 8-bit register for signal <reg_val>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <Reg_MDR> synthesized.
+
+
+Synthesizing Unit <ALU_Block>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd".
+    Found 8-bit tristate buffer for signal <data_bus>.
+    Found 9-bit 4-to-1 multiplexer for signal <result>.
+    Found 9-bit adder for signal <result$addsub0000> created at line 54.
+    Found 8-bit register for signal <temp1>.
+    Found 8-bit register for signal <temp2>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   9 Multiplexer(s).
+	inferred   8 Tristate(s).
+Unit <ALU_Block> synthesized.
+
+
+Synthesizing Unit <Addr_Decoder>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd".
+    Found 5-bit comparator greatequal for signal <cs_io0$cmp_ge0000> created at line 25.
+    Found 5-bit comparator lessequal for signal <cs_io0$cmp_le0000> created at line 25.
+    Found 5-bit comparator lessequal for signal <cs_rom$cmp_le0000> created at line 24.
+    Summary:
+	inferred   3 Comparator(s).
+Unit <Addr_Decoder> synthesized.
+
+
+Synthesizing Unit <Program_ROM>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 16x8-bit ROM for signal <data_out$rom0000> created at line 32.
+    Found 8-bit tristate buffer for signal <data_out>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 Tristate(s).
+Unit <Program_ROM> synthesized.
+
+
+Synthesizing Unit <Data_RAM>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd".
+    Found 8x8-bit single-port RAM <Mram_RAM_MEM> for signal <RAM_MEM>.
+    Found 8-bit tristate buffer for signal <data_out>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 Tristate(s).
+Unit <Data_RAM> synthesized.
+
+
+Synthesizing Unit <Input_Port>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit tristate buffer for signal <data_bus>.
+    Summary:
+	inferred   8 Tristate(s).
+Unit <Input_Port> synthesized.
+
+
+Synthesizing Unit <IO_Port>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd".
+    Found 8-bit register for signal <latch_val>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <IO_Port> synthesized.
+
+
+Synthesizing Unit <Structural_Computer>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd".
+WARNING:Xst:646 - Signal <cs_io1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <alu_c_flag> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Structural_Computer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x8-bit single-port RAM                               : 1
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 9-bit adder                                           : 1
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 7
+ 5-bit register                                        : 1
+ 8-bit register                                        : 6
+# Comparators                                          : 3
+ 5-bit comparator greatequal                           : 1
+ 5-bit comparator lessequal                            : 2
+# Multiplexers                                         : 1
+ 9-bit 4-to-1 multiplexer                              : 1
+# Tristates                                            : 9
+ 8-bit tristate buffer                                 : 9
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <U_CU/current_state/FSM> on signal <current_state[1:9]> with one-hot encoding.
+------------------------
+ State     | Encoding
+------------------------
+ s_reset   | 000000001
+ s_fetch_1 | 000000010
+ s_fetch_2 | 000000100
+ s_fetch_3 | 000001000
+ s_exec_1  | 000010000
+ s_exec_2  | 000100000
+ s_exec_3  | 001000000
+ s_exec_4  | 010000000
+ s_exec_5  | 100000000
+------------------------
+
+Synthesizing (advanced) Unit <Data_RAM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RAM_MEM> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <data_in>       |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Data_RAM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 8x8-bit single-port distributed RAM                   : 1
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 9-bit adder                                           : 1
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+# Comparators                                          : 3
+ 5-bit comparator greatequal                           : 1
+ 5-bit comparator lessequal                            : 2
+# Multiplexers                                         : 1
+ 9-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2042 - Unit Input_Port: 8 internal tristates are replaced by logic (pull-up yes): data_bus<0>, data_bus<1>, data_bus<2>, data_bus<3>, data_bus<4>, data_bus<5>, data_bus<6>, data_bus<7>.
+WARNING:Xst:2042 - Unit Data_RAM: 8 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>.
+WARNING:Xst:2042 - Unit Program_ROM: 8 internal tristates are replaced by logic (pull-up yes): data_out<0>, data_out<1>, data_out<2>, data_out<3>, data_out<4>, data_out<5>, data_out<6>, data_out<7>.
+WARNING:Xst:2042 - Unit ALU_Block: 8 internal tristates are replaced by logic (pull-up yes): data_bus<0>, data_bus<1>, data_bus<2>, data_bus<3>, data_bus<4>, data_bus<5>, data_bus<6>, data_bus<7>.
+WARNING:Xst:2042 - Unit Reg_MDR: 16 internal tristates are replaced by logic (pull-up yes): bus_ext<0>, bus_ext<1>, bus_ext<2>, bus_ext<3>, bus_ext<4>, bus_ext<5>, bus_ext<6>, bus_ext<7>, bus_int<0>, bus_int<1>, bus_int<2>, bus_int<3>, bus_int<4>, bus_int<5>, bus_int<6>, bus_int<7>.
+WARNING:Xst:2042 - Unit Reg_ACC: 8 internal tristates are replaced by logic (pull-up yes): data_bus<0>, data_bus<1>, data_bus<2>, data_bus<3>, data_bus<4>, data_bus<5>, data_bus<6>, data_bus<7>.
+WARNING:Xst:2042 - Unit Reg_IR: 8 internal tristates are replaced by logic (pull-up yes): data_bus<0>, data_bus<1>, data_bus<2>, data_bus<3>, data_bus<4>, data_bus<5>, data_bus<6>, data_bus<7>.
+WARNING:Xst:2042 - Unit Reg_PC: 8 internal tristates are replaced by logic (pull-up yes): data_bus<0>, data_bus<1>, data_bus<2>, data_bus<3>, data_bus<4>, data_bus<5>, data_bus<6>, data_bus<7>.
+
+Optimizing unit <Structural_Computer> ...
+
+Optimizing unit <Control_Unit> ...
+
+Optimizing unit <IO_Port> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Structural_Computer, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 70
+ Flip-Flops                                            : 70
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Structural_Computer.ngr
+Top Level Output File Name         : Structural_Computer
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 206
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 16
+#      LUT2_D                      : 1
+#      LUT3                        : 38
+#      LUT3_D                      : 3
+#      LUT3_L                      : 5
+#      LUT4                        : 72
+#      LUT4_D                      : 18
+#      LUT4_L                      : 11
+#      MUXCY                       : 15
+#      MUXF5                       : 9
+#      XORCY                       : 16
+# FlipFlops/Latches                : 70
+#      FDC                         : 8
+#      FDCE                        : 61
+#      FDP                         : 1
+# RAMS                             : 8
+#      RAM16X1S                    : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       89  out of   3584     2%  
+ Number of Slice Flip Flops:             70  out of   7168     0%  
+ Number of 4 input LUTs:                173  out of   7168     2%  
+    Number used as logic:               165
+    Number used as RAMs:                  8
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    141    12%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 78    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------+---------------------------+-------+
+Control Signal                            | Buffer(FF name)           | Load  |
+------------------------------------------+---------------------------+-------+
+U_ACC/rst_inv(U_OUT_PORT/rst_inv1_INV_0:O)| NONE(U_ACC/internal_val_0)| 70    |
+------------------------------------------+---------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.554ns (Maximum Frequency: 104.667MHz)
+   Minimum input arrival time before clock: 5.609ns
+   Maximum output required time after clock: 6.216ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 9.554ns (frequency: 104.667MHz)
+  Total number of paths / destination ports: 10870 / 170
+-------------------------------------------------------------------------
+Delay:               9.554ns (Levels of Logic = 6)
+  Source:            U_IR/ir_val_7 (FF)
+  Destination:       U_MDR/reg_val_6 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: U_IR/ir_val_7 to U_MDR/reg_val_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            27   0.626   1.574  U_IR/ir_val_7 (U_IR/ir_val_7)
+     LUT4:I3->O            2   0.479   0.804  U_CU/mem_rd_SW0 (N61)
+     LUT3_D:I2->O          8   0.479   0.944  U_CU/mem_rd (mdr_le_out)
+     LUT4_D:I3->O          6   0.479   0.912  U_IN_PORT/data_bus_and0000_inv1 (U_IN_PORT/data_bus_and0000_inv)
+     LUT4:I2->O            1   0.479   0.851  external_data<6>LogicTrst44 (external_data<6>LogicTrst44)
+     LUT2:I1->O            3   0.479   0.794  external_data<6>LogicTrst45 (external_data<6>)
+     LUT4:I3->O            1   0.479   0.000  U_MDR/reg_val_mux0000<6>1 (U_MDR/reg_val_mux0000<6>)
+     FDCE:D                    0.176          U_MDR/reg_val_6
+    ----------------------------------------
+    Total                      9.554ns (3.676ns logic, 5.878ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              5.609ns (Levels of Logic = 5)
+  Source:            SWITCHES<1> (PAD)
+  Destination:       U_MDR/reg_val_1 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: SWITCHES<1> to U_MDR/reg_val_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.851  SWITCHES_1_IBUF (SWITCHES_1_IBUF)
+     LUT4:I1->O            1   0.479   0.851  external_data<1>LogicTrst14 (external_data<1>LogicTrst14)
+     LUT4_L:I1->LO         1   0.479   0.270  external_data<1>LogicTrst32 (external_data<1>LogicTrst32)
+     LUT3:I1->O            3   0.479   0.830  external_data<1>LogicTrst52 (external_data<1>)
+     LUT3:I2->O            1   0.479   0.000  U_MDR/reg_val_mux0000<1>1 (U_MDR/reg_val_mux0000<1>)
+     FDCE:D                    0.176          U_MDR/reg_val_1
+    ----------------------------------------
+    Total                      5.609ns (2.807ns logic, 2.802ns route)
+                                       (50.0% logic, 50.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              6.216ns (Levels of Logic = 1)
+  Source:            U_OUT_PORT/latch_val_7 (FF)
+  Destination:       LEDS_OUT<7> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: U_OUT_PORT/latch_val_7 to LEDS_OUT<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.626   0.681  U_OUT_PORT/latch_val_7 (U_OUT_PORT/latch_val_7)
+     OBUF:I->O                 4.909          LEDS_OUT_7_OBUF (LEDS_OUT<7>)
+    ----------------------------------------
+    Total                      6.216ns (5.535ns logic, 0.681ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 2.44 secs
+ 
+--> 
+
+
+Total memory usage is 617688 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

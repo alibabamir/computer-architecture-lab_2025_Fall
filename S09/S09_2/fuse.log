@@ -1,0 +1,48 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer_TB_isim_beh.exe -prj /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer_TB_beh.prj work.Structural_Computer_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98468 KB
+Fuse CPU Usage: 1860 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Control_Unit [control_unit_default]
+Compiling architecture behavioral of entity Reg_PC [reg_pc_default]
+Compiling architecture behavioral of entity Reg_MAR [reg_mar_default]
+Compiling architecture behavioral of entity Reg_IR [reg_ir_default]
+Compiling architecture behavioral of entity Reg_ACC [reg_acc_default]
+Compiling architecture behavioral of entity Reg_MDR [reg_mdr_default]
+Compiling architecture behavioral of entity ALU_Block [alu_block_default]
+Compiling architecture logic of entity Addr_Decoder [addr_decoder_default]
+Compiling architecture structural of entity Program_ROM [program_rom_default]
+Compiling architecture structural of entity Data_RAM [data_ram_default]
+Compiling architecture behavioral of entity Input_Port [input_port_default]
+Compiling architecture behavioral of entity IO_Port [io_port_default]
+Compiling architecture structural of entity Structural_Computer [structural_computer_default]
+Compiling architecture behavior of entity structural_computer_tb
+Time Resolution for simulation is 1ps.
+Compiled 32 VHDL Units
+Built simulation executable /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer_TB_isim_beh.exe
+Fuse Memory Usage: 117576 KB
+Fuse CPU Usage: 2570 ms
+GCC CPU Usage: 1610 ms

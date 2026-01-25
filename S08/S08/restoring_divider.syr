@@ -1,0 +1,427 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Reading design: restoring_divider.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "restoring_divider.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "restoring_divider"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : restoring_divider
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/VM/computer-architecture-lab_2025_Fall/S08/RestoringDivider.vhd" in Library work.
+Architecture rtl of Entity restoring_divider is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <restoring_divider> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <restoring_divider> in library <work> (Architecture <rtl>).
+Entity <restoring_divider> analyzed. Unit <restoring_divider> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <restoring_divider>.
+    Related source file is "/home/ise/VM/computer-architecture-lab_2025_Fall/S08/RestoringDivider.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit register for signal <A_reg>.
+    Found 4-bit register for signal <count>.
+    Found 4-bit subtractor for signal <count$addsub0000> created at line 84.
+    Found 1-bit register for signal <dfv_reg>.
+    Found 1-bit register for signal <done_reg>.
+    Found 8-bit register for signal <Q_reg>.
+    Found 9-bit comparator greatequal for signal <Q_reg_0$cmp_ge0000> created at line 77.
+    Found 9-bit subtractor for signal <Q_reg_0$sub0000> created at line 76.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <restoring_divider> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit subtractor                                      : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 12
+ 1-bit register                                        : 10
+ 4-bit register                                        : 1
+ 9-bit register                                        : 1
+# Comparators                                          : 1
+ 9-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:6]> with one-hot encoding.
+------------------------
+ State      | Encoding
+------------------------
+ idle       | 000001
+ check_zero | 000010
+ shift      | 001000
+ subtract   | 010000
+ done_s     | 100000
+ error      | 000100
+------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 4-bit subtractor                                      : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+# Comparators                                          : 1
+ 9-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <restoring_divider> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block restoring_divider, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : restoring_divider.ngr
+Top Level Output File Name         : restoring_divider
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 29
+
+Cell Usage :
+# BELS                             : 111
+#      INV                         : 5
+#      LUT2                        : 8
+#      LUT2_D                      : 1
+#      LUT3                        : 18
+#      LUT3_D                      : 1
+#      LUT4                        : 41
+#      LUT4_D                      : 3
+#      LUT4_L                      : 8
+#      MUXCY                       : 8
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 9
+# FlipFlops/Latches                : 29
+#      FDC                         : 28
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 28
+#      IBUF                        : 14
+#      OBUF                        : 14
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       45  out of   3584     1%  
+ Number of Slice Flip Flops:             29  out of   7168     0%  
+ Number of 4 input LUTs:                 85  out of   7168     1%  
+ Number of IOs:                          29
+ Number of bonded IOBs:                  29  out of    141    20%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 29    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 29    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.222ns (Maximum Frequency: 160.733MHz)
+   Minimum input arrival time before clock: 6.409ns
+   Maximum output required time after clock: 6.388ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.222ns (frequency: 160.733MHz)
+  Total number of paths / destination ports: 554 / 29
+-------------------------------------------------------------------------
+Delay:               6.222ns (Levels of Logic = 12)
+  Source:            A_reg_0 (FF)
+  Destination:       A_reg_7 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: A_reg_0 to A_reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.626   1.023  A_reg_0 (A_reg_0)
+     LUT2:I1->O            1   0.479   0.000  Msub_Q_reg_0_sub0000_lut<0> (Msub_Q_reg_0_sub0000_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Msub_Q_reg_0_sub0000_cy<0> (Msub_Q_reg_0_sub0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Msub_Q_reg_0_sub0000_cy<1> (Msub_Q_reg_0_sub0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Msub_Q_reg_0_sub0000_cy<2> (Msub_Q_reg_0_sub0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Msub_Q_reg_0_sub0000_cy<3> (Msub_Q_reg_0_sub0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Msub_Q_reg_0_sub0000_cy<4> (Msub_Q_reg_0_sub0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Msub_Q_reg_0_sub0000_cy<5> (Msub_Q_reg_0_sub0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Msub_Q_reg_0_sub0000_cy<6> (Msub_Q_reg_0_sub0000_cy<6>)
+     MUXCY:CI->O           0   0.056   0.000  Msub_Q_reg_0_sub0000_cy<7> (Msub_Q_reg_0_sub0000_cy<7>)
+     XORCY:CI->O          18   0.786   1.227  Msub_Q_reg_0_sub0000_xor<8> (Q_reg_0_sub0000<8>)
+     LUT4_L:I3->LO         1   0.479   0.123  A_reg_mux0000<7>_SW0 (N34)
+     LUT4:I3->O            1   0.479   0.000  A_reg_mux0000<7> (A_reg_mux0000<7>)
+     FDC:D                     0.176          A_reg_7
+    ----------------------------------------
+    Total                      6.222ns (3.849ns logic, 2.373ns route)
+                                       (61.9% logic, 38.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 181 / 28
+-------------------------------------------------------------------------
+Offset:              6.409ns (Levels of Logic = 5)
+  Source:            divisor<0> (PAD)
+  Destination:       Q_reg_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: divisor<0> to Q_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  divisor_0_IBUF (divisor_0_IBUF)
+     LUT4:I0->O            7   0.479   1.201  state_cmp_eq00001 (state_cmp_eq0000)
+     LUT2_D:I0->O          7   0.479   1.201  state_FSM_FFd3-In11 (N8)
+     LUT4_L:I0->LO         1   0.479   0.159  Q_reg_0_mux0000_SW0 (N31)
+     LUT4:I2->O            1   0.479   0.000  Q_reg_0_mux0000 (Q_reg_0_mux0000)
+     FDC:D                     0.176          Q_reg_0
+    ----------------------------------------
+    Total                      6.409ns (2.807ns logic, 3.602ns route)
+                                       (43.8% logic, 56.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              6.388ns (Levels of Logic = 1)
+  Source:            A_reg_3 (FF)
+  Destination:       remainder<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: A_reg_3 to remainder<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.626   0.853  A_reg_3 (A_reg_3)
+     OBUF:I->O                 4.909          remainder_3_OBUF (remainder<3>)
+    ----------------------------------------
+    Total                      6.388ns (5.535ns logic, 0.853ns route)
+                                       (86.7% logic, 13.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 0.75 secs
+ 
+--> 
+
+
+Total memory usage is 609964 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

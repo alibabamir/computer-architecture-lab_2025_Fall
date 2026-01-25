@@ -1,0 +1,6 @@
+AR memory_block behavioral /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Memory_Unit.vhd sub00/vhpl03 1769332501
+EN top_system NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Computer_System.vhd sub00/vhpl04 1769332502
+AR top_system structural /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Computer_System.vhd sub00/vhpl05 1769332503
+EN simple_cpu NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Processor_Unit.vhd sub00/vhpl00 1769332498
+EN memory_block NULL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Memory_Unit.vhd sub00/vhpl02 1769332500
+AR simple_cpu behavior /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Processor_Unit.vhd sub00/vhpl01 1769332499

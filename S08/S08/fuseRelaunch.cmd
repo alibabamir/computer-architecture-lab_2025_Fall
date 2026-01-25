@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/VM/computer-architecture-lab_2025_Fall/S08/tb_restoring_divider_isim_beh.exe" -prj "/home/ise/VM/computer-architecture-lab_2025_Fall/S08/tb_restoring_divider_beh.prj" "work.tb_restoring_divider" 

@@ -1,0 +1,22 @@
+V3 11
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Computer_System.vhd 2026/01/25.13:52:36 P.20131013
+EN work/Top_System 1769332502 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Computer_System.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Top_System/Structural 1769332503 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Computer_System.vhd \
+      EN work/Top_System 1769332502 CP work/Simple_CPU CP work/Memory_Block
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Memory_Unit.vhd 2026/01/25.13:52:02 P.20131013
+EN work/Memory_Block 1769332500 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Memory_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Memory_Block/Behavioral 1769332501 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Memory_Unit.vhd \
+      EN work/Memory_Block 1769332500
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Processor_Unit.vhd 2026/01/25.13:52:24 P.20131013
+EN work/Simple_CPU 1769332498 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Processor_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Simple_CPU/Behavior 1769332499 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Processor_Unit.vhd \
+      EN work/Simple_CPU 1769332498

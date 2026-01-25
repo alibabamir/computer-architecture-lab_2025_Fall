@@ -1,0 +1,28 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/System_TB_isim_beh.exe -prj /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/System_TB_beh.prj work.System_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Processor_Unit.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Memory_Unit.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Computer_System.vhd" into library work
+Parsing VHDL file "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/TB_Computer.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98428 KB
+Fuse CPU Usage: 1290 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavior of entity Simple_CPU [simple_cpu_default]
+Compiling architecture behavioral of entity Memory_Block [memory_block_default]
+Compiling architecture structural of entity Top_System [top_system_default]
+Compiling architecture behavioral of entity system_tb
+Time Resolution for simulation is 1ps.
+Compiled 12 VHDL Units
+Built simulation executable /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/System_TB_isim_beh.exe
+Fuse Memory Usage: 117240 KB
+Fuse CPU Usage: 1670 ms
+GCC CPU Usage: 780 ms

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Top_System.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Top_System.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Top_System.ngc Top_System.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Top_System_map.ncd Top_System.ngd Top_System.pcf 
+par -w -intstyle ise -ol high -t 1 Top_System_map.ncd Top_System.ncd Top_System.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_System.twx Top_System.ncd -o Top_System.twr Top_System.pcf 
+bitgen -intstyle ise -f Top_System.ut Top_System.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Top_System.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Top_System.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Top_System.xst" -ofn "/home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_1/Top_System.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Top_System.ngc Top_System.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Top_System_map.ncd Top_System.ngd Top_System.pcf 
+par -w -intstyle ise -ol high -t 1 Top_System_map.ncd Top_System.ncd Top_System.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_System.twx Top_System.ncd -o Top_System.twr Top_System.pcf 
+bitgen -intstyle ise -f Top_System.ut Top_System.ncd 

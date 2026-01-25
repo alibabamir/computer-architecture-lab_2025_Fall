@@ -1,0 +1,95 @@
+V3 51
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd 2026/01/25.14:08:33 P.20131013
+EN work/Addr_Decoder 1769333108 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Addr_Decoder/Logic 1769333109 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Addr_Decoder.vhd \
+      EN work/Addr_Decoder 1769333108
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd 2026/01/25.14:29:01 P.20131013
+EN work/ALU_Block 1769333106 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_Block/Behavioral 1769333107 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/ALU_Block.vhd \
+      EN work/ALU_Block 1769333106
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd 2026/01/25.15:54:13 P.20131013
+EN work/Control_Unit 1769333094 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Control_Unit/Behavioral 1769333095 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Control_Unit.vhd \
+      EN work/Control_Unit 1769333094
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd 2026/01/25.16:03:38 P.20131013
+EN work/Data_RAM 1769333112 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Data_RAM/Structural 1769333113 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Data_RAM.vhd \
+      EN work/Data_RAM 1769333112
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd 2026/01/25.15:55:08 P.20131013
+EN work/Input_Port 1769333114 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Input_Port/Behavioral 1769333115 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Input_Port.vhd \
+      EN work/Input_Port 1769333114
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd 2026/01/25.14:40:52 P.20131013
+EN work/IO_Port 1769333116 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/IO_Port/Behavioral 1769333117 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/IO_Port.vhd \
+      EN work/IO_Port 1769333116
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd 2026/01/25.16:02:22 P.20131013
+EN work/Program_ROM 1769333110 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Program_ROM/Structural 1769333111 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Program_ROM.vhd \
+      EN work/Program_ROM 1769333110
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd 2026/01/25.14:10:51 P.20131013
+EN work/Reg_ACC 1769333102 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg_ACC/Behavioral 1769333103 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_ACC.vhd \
+      EN work/Reg_ACC 1769333102
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd 2026/01/25.14:15:30 P.20131013
+EN work/Reg_IR 1769333100 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg_IR/Behavioral 1769333101 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_IR.vhd \
+      EN work/Reg_IR 1769333100
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd 2026/01/25.14:11:42 P.20131013
+EN work/Reg_MAR 1769333098 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg_MAR/Behavioral 1769333099 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MAR.vhd \
+      EN work/Reg_MAR 1769333098
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd 2026/01/25.14:14:46 P.20131013
+EN work/Reg_MDR 1769333104 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg_MDR/Behavioral 1769333105 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_MDR.vhd \
+      EN work/Reg_MDR 1769333104
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd 2026/01/25.16:05:34 P.20131013
+EN work/Reg_PC 1769333096 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Reg_PC/Behavioral 1769333097 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Reg_PC.vhd \
+      EN work/Reg_PC 1769333096
+FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd 2026/01/25.15:55:38 P.20131013
+EN work/Structural_Computer 1769333118 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Structural_Computer/Structural 1769333119 \
+      FL /home/ise/VM/computer-architecture-lab_2025_Fall/S09/S09_2/Structural_Computer.vhd \
+      EN work/Structural_Computer 1769333118 CP work/Control_Unit CP work/Reg_PC \
+      CP work/Reg_MAR CP work/Reg_IR CP work/Reg_ACC CP work/Reg_MDR \
+      CP work/ALU_Block CP work/Addr_Decoder CP work/Program_ROM CP work/Data_RAM \
+      CP work/Input_Port CP work/IO_Port

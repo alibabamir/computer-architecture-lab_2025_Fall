@@ -61,3 +61,98 @@ No Unisim elements were transformed.
 
 Phase 0 | Netlist Checksum: c3d4ce38
 link_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2735.660 ; gain = 66.348
+startgroup
+set_property package_pin P183 [get_ports {addr[3]}]
+endgroup
+startgroup
+set_property package_pin P182 [get_ports {addr[2]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {addr[1]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {addr[0]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {input_data[7]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {input_data[6]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {input_data[5]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {input_data[4]}]
+endgroup
+startgroup
+set_property package_pin P166 [get_ports {input_data[3]}]
+endgroup
+startgroup
+set_property package_pin P165 [get_ports {input_data[2]}]
+endgroup
+startgroup
+set_property package_pin P162 [get_ports {input_data[1]}]
+endgroup
+startgroup
+set_property package_pin P161 [get_ports {input_data[0]}]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports {output_data[7]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {output_data[6]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {output_data[5]}]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports {output_data[4]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {output_data[3]}]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports {output_data[2]}]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {output_data[1]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports {output_data[0]}]
+endgroup
+startgroup
+set_property package_pin P184 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  readOut]]
+startgroup
+set_property package_pin P190 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P172 [get_ports readOut]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports writeIn]
+endgroup
+startgroup
+set_property package_pin P176 [get_ports writeIn]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P190 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports rst]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P189 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P190 [get_ports rst]
+endgroup
+save_constraints -force
+startgroup
+set_property package_pin P184 [get_ports clk]
+endgroup
+save_constraints -force

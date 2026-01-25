@@ -1,0 +1,3 @@
+work	"Computer_System.vhd"
+work	"Memory_Unit.vhd"
+work	"Processor_Unit.vhd"

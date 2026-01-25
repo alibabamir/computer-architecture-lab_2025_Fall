@@ -1,0 +1,32 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "dividend[7]" LOC = P183;
+NET "dividend[6]" LOC = P182;
+NET "dividend[5]" LOC = P181;
+NET "dividend[4]" LOC = P180;
+NET "dividend[3]" LOC = P178;
+NET "dividend[2]" LOC = P176;
+NET "dividend[1]" LOC = P175;
+NET "dividend[0]" LOC = P172;
+NET "divisor[3]" LOC = P171;
+NET "divisor[2]" LOC = P169;
+NET "divisor[1]" LOC = P168;
+NET "divisor[0]" LOC = P167;
+NET "quotient[7]" LOC = P42;
+NET "quotient[6]" LOC = P43;
+NET "quotient[5]" LOC = P44;
+NET "quotient[4]" LOC = P45;
+NET "quotient[3]" LOC = P46;
+NET "quotient[2]" LOC = P48;
+NET "quotient[1]" LOC = P50;
+NET "quotient[0]" LOC = P51;
+NET "remainder[3]" LOC = P61;
+NET "remainder[2]" LOC = P62;
+NET "remainder[1]" LOC = P63;
+NET "remainder[0]" LOC = P64;
+NET "clk" LOC = P184;
+NET "dfv" LOC = P71;
+NET "done" LOC = P13;
+NET "rst" LOC = P161;
+NET "start" LOC = P162;
